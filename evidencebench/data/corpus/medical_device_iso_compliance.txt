@@ -1,0 +1,8 @@
+=== Medical Device Quality Management ISO 13485 ===
+
+ISO 13485:2016 specifies requirements for a comprehensive quality management system (QMS) where an organization must demonstrate its ability to provide medical devices and related services that consistently meet customer and applicable regulatory requirements.
+
+Design controls require formal Design History Files (DHF) documenting design inputs, outputs, verification, validation, and design transfer. Risk management must adhere strictly to ISO 14971 principles throughout the entire product life cycle.
+
+=== Post-Market Surveillance ===
+Manufacturers must establish documented procedures to gather, evaluate, and report post-production customer complaints, adverse events, and vigilance reporting within statutory deadlines (e.g., 15 days for serious public health threats under EU MDR).

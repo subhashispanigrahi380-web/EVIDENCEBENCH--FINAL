@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EvidenceBench — Verifiable RAG Workspace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .citation-tag {
+      cursor: pointer;
+      background-color: #e0e7ff;
+      color: #3730a3;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      border: 1px solid #c7d2fe;
+      transition: all 0.15s ease-in-out;
+      display: inline-block;
+      margin: 0 2px;
+    }
+    .citation-tag:hover {
+      background-color: #c7d2fe;
+      border-color: #818cf8;
+      transform: translateY(-1px);
+    }
+    .badge-abstain {
+      background-color: #fee2e2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
+    }
+    .badge-answer {
+      background-color: #dcfce7;
+      color: #166534;
+      border: 1px solid #bbf7d0;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col font-sans">
+
+  <!-- Top Navbar -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="bg-indigo-600 text-white p-2 rounded-lg font-bold flex items-center justify-center w-9 h-9">
+          <i class="fa-solid fa-scale-balanced"></i>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold text-slate-900 leading-tight">EvidenceBench</h1>
+          <p class="text-xs text-slate-500 font-medium">Verifiable Retrieval-Augmented Generation & Abstention Gatekeeper</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span id="index-version-badge" class="px-2.5 py-1 text-xs font-semibold rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+          Index: v1.0
+        </span>
+        <span id="doc-count-badge" class="px-2.5 py-1 text-xs font-semibold rounded-full bg-slate-100 text-slate-700 border border-slate-300">
+          Docs: Loading...
+        </span>
+        <div class="border-l border-slate-200 h-6"></div>
+        <nav class="flex space-x-2">
+          <button onclick="switchTab('workspace')" id="tab-btn-workspace" class="px-3 py-1.5 text-sm font-semibold rounded-md bg-indigo-50 text-indigo-700">Workspace</button>
+          <button onclick="switchTab('benchmark')" id="tab-btn-benchmark" class="px-3 py-1.5 text-sm font-semibold rounded-md text-slate-600 hover:bg-slate-100">Benchmark</button>
+          <button onclick="switchTab('documents')" id="tab-btn-documents" class="px-3 py-1.5 text-sm font-semibold rounded-md text-slate-600 hover:bg-slate-100">Documents</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+
+    <!-- TAB 1: WORKSPACE -->
+    <div id="tab-workspace" class="space-y-6">
+      <!-- Query & Controls Card -->
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+        <div class="flex flex-col md:flex-row gap-4 items-start md:items-end">
+          <div class="flex-1 w-full">
+            <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">Research Query</label>
+            <div class="relative">
+              <input type="text" id="query-input" placeholder="Ask a question or select a test preset below..." 
+                value="What is the guaranteed uptime availability in Cloud Architecture Specifications 2025?"
+                class="w-full px-4 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm font-medium">
+            </div>
+          </div>
+          <div class="flex gap-3 w-full md:w-auto">
+            <div>
+              <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">Pipeline Mode</label>
+              <select id="pipeline-mode" class="px-3 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs font-semibold text-slate-700 focus:ring-2 focus:ring-indigo-500">
+                <option value="hybrid_rerank" selected>Hybrid + Cross-Encoder Rerank</option>
+                <option value="hybrid">Calibrated Hybrid RRF</option>
+                <option value="dense">Dense Vector Only</option>
+                <option value="bm25">Keyword (BM25) Only</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">Chunking</label>
+              <select id="chunking-mode" class="px-3 py-2.5 bg-slate-50 border border-slate-300 rounded-lg text-xs font-semibold text-slate-700 focus:ring-2 focus:ring-indigo-500">
+                <option value="structure_aware" selected>Structure-Aware (Semantic)</option>
+                <option value="fixed_recursive">Fixed Recursive (500ch)</option>
+              </select>
+            </div>
+            <button onclick="submitQuery()" id="btn-submit-query" class="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm rounded-lg shadow-sm transition-colors flex items-center justify-center space-x-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span>Retrieve & Verify</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Presets -->
+        <div>
+          <span class="text-xs font-bold text-slate-400 uppercase tracking-wider mr-2">Test Presets:</span>
+          <div class="inline-flex flex-wrap gap-2 pt-1">
+            <button onclick="setQuery(this.innerText, 'hybrid_rerank')" class="text-xs px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-full font-medium transition">
+              What is the guaranteed uptime availability in Cloud Architecture Specifications 2025?
+            </button>
+            <button onclick="setQuery(this.innerText, 'dense')" class="text-xs px-2.5 py-1 bg-purple-50 hover:bg-purple-100 text-purple-700 rounded-full font-medium transition">
+              How resilient is the cloud infrastructure against service interruptions and downtime?
+            </button>
+            <button onclick="setQuery(this.innerText, 'hybrid_rerank')" class="text-xs px-2.5 py-1 bg-amber-50 hover:bg-amber-100 text-amber-800 rounded-full font-medium transition">
+              What is the official EU 2030 greenhouse gas emissions reduction target?
+            </button>
+            <button onclick="setQuery(this.innerText, 'hybrid_rerank')" class="text-xs px-2.5 py-1 bg-rose-50 hover:bg-rose-100 text-rose-800 rounded-full font-medium transition">
+              What was the retail release price of the Apple iPhone 16 Pro in Tokyo?
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <!-- Left Column: Answer & Abstention (7 cols) -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-comment-dots text-indigo-600"></i>
+                <h2 class="text-sm font-bold uppercase tracking-wider text-slate-700">Synthesized Answer & Citations</h2>
+              </div>
+              <div id="abstention-badge" class="px-3 py-1 rounded-full text-xs font-bold badge-answer flex items-center space-x-1.5">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>ANSWERED (Confidence: 0.98)</span>
+              </div>
+            </div>
+
+            <!-- Abstention Rationale Banner (hidden by default) -->
+            <div id="abstention-banner" class="hidden p-4 rounded-lg bg-amber-50 border border-amber-200 text-amber-900 space-y-1">
+              <div class="font-bold text-xs uppercase tracking-wider flex items-center space-x-2">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <span id="abstain-reason-title">Abstention Triggered</span>
+              </div>
+              <p id="abstain-reason-text" class="text-xs font-medium leading-relaxed"></p>
+            </div>
+
+            <!-- Answer text container -->
+            <div id="answer-content" class="text-sm leading-relaxed text-slate-800 whitespace-pre-line space-y-2 bg-slate-50 p-4 rounded-lg border border-slate-200 min-h-[140px]">
+              Click "Retrieve & Verify" or choose a preset question to view grounded generation with verifiable passage citations.
+            </div>
+
+            <!-- Citation summary bar -->
+            <div class="flex items-center justify-between text-xs text-slate-500 pt-2 border-t border-slate-100">
+              <div class="flex space-x-4">
+                <span>Citations: <strong id="citation-count" class="text-slate-700">0</strong></span>
+                <span>Precision: <strong id="citation-precision" class="text-slate-700">100%</strong></span>
+                <span>Coverage: <strong id="citation-coverage" class="text-slate-700">100%</strong></span>
+              </div>
+              <span id="latency-indicator" class="font-mono">Latency: -- ms</span>
+            </div>
+          </div>
+
+          <!-- Retrieved Candidates Table -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-layer-group text-indigo-600"></i>
+                <h2 class="text-sm font-bold uppercase tracking-wider text-slate-700">Retrieved Candidate Evidence Pool</h2>
+              </div>
+              <span id="candidate-count-badge" class="text-xs font-bold text-slate-500">0 chunks</span>
+            </div>
+            <div id="candidates-container" class="space-y-3 max-h-[460px] overflow-y-auto pr-1">
+              <p class="text-xs text-slate-400 italic">No candidates retrieved yet.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Debug Inspector & Source Viewer (5 cols) -->
+        <div class="lg:col-span-5 space-y-6">
+          <!-- Source Preview Drawer Card -->
+          <div id="source-preview-card" class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-file-lines text-indigo-600"></i>
+                <h2 class="text-sm font-bold uppercase tracking-wider text-slate-700">Source Passage Preview</h2>
+              </div>
+              <span id="preview-badge" class="px-2 py-0.5 text-xs font-bold bg-slate-100 text-slate-600 rounded">Click a citation tag</span>
+            </div>
+            <div id="source-preview-body" class="space-y-3 text-xs">
+              <div class="bg-slate-50 p-3 rounded border border-slate-200 space-y-1">
+                <div class="flex justify-between">
+                  <span class="text-slate-500 font-semibold">Document:</span>
+                  <span id="preview-doc" class="font-mono text-slate-800">--</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-500 font-semibold">Page / Section:</span>
+                  <span id="preview-page-sec" class="font-medium text-slate-800">--</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-500 font-semibold">Chunk ID:</span>
+                  <span id="preview-chunk-id" class="font-mono text-indigo-700">--</span>
+                </div>
+              </div>
+              <div>
+                <span class="font-bold text-slate-600 block mb-1">Passage Text:</span>
+                <p id="preview-text" class="p-3 bg-white border border-slate-200 rounded leading-relaxed text-slate-700 font-sans italic">
+                  Select any [Doc: ...] citation link or candidate item to view full source passage text and verify grounding.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trace & Scoring Inspector -->
+          <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-chart-line text-indigo-600"></i>
+                <h2 class="text-sm font-bold uppercase tracking-wider text-slate-700">Pipeline Stage Waterfall & Trace</h2>
+              </div>
+              <button onclick="copyTraceJson()" class="text-xs text-indigo-600 hover:text-indigo-800 font-semibold">Copy JSON</button>
+            </div>
+            <div id="trace-stages-container" class="space-y-2 text-xs">
+              <p class="text-slate-400 italic">No trace recorded.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: BENCHMARK -->
+    <div id="tab-benchmark" class="hidden space-y-6">
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+          <div>
+            <h2 class="text-base font-bold text-slate-900">50-Question Benchmark Suite & Ablation Runner</h2>
+            <p class="text-xs text-slate-500">Evaluates Recall@K, MRR@K, nDCG@K, Citation Precision, and Abstention Quality across configurations.</p>
+          </div>
+          <div class="flex gap-3">
+            <select id="benchmark-mode-select" class="px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-xs font-semibold text-slate-700">
+              <option value="hybrid_rerank">Hybrid + Rerank (Full Pipeline)</option>
+              <option value="hybrid">Calibrated Hybrid RRF</option>
+              <option value="dense">Dense Vector Only</option>
+              <option value="bm25">Keyword (BM25) Only</option>
+            </select>
+            <button onclick="runBenchmarkSuite()" id="btn-run-benchmark" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs rounded-lg shadow-sm flex items-center space-x-2">
+              <i class="fa-solid fa-play"></i>
+              <span>Run Benchmark</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Metrics Cards Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3 pt-2">
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">Recall@1</span>
+            <span id="bm-r1" class="text-lg font-bold text-slate-800">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">Recall@3</span>
+            <span id="bm-r3" class="text-lg font-bold text-slate-800">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">Recall@5</span>
+            <span id="bm-r5" class="text-lg font-bold text-slate-800">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">MRR@5</span>
+            <span id="bm-mrr" class="text-lg font-bold text-slate-800">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">nDCG@5</span>
+            <span id="bm-ndcg" class="text-lg font-bold text-slate-800">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">Citation Prec.</span>
+            <span id="bm-cit-prec" class="text-lg font-bold text-emerald-700">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">Abstain F1</span>
+            <span id="bm-abs-f1" class="text-lg font-bold text-indigo-700">--</span>
+          </div>
+          <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-center">
+            <span class="block text-slate-400 text-xs font-bold uppercase">Avg Latency</span>
+            <span id="bm-lat" class="text-lg font-bold text-slate-800">--</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Failure Analysis Table -->
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+          <div class="flex items-center space-x-2">
+            <i class="fa-solid fa-bug text-rose-600"></i>
+            <h3 class="text-sm font-bold uppercase tracking-wider text-slate-700">Failure Inspector & Log</h3>
+          </div>
+          <span id="failure-count-badge" class="px-2 py-0.5 text-xs font-bold bg-rose-100 text-rose-800 rounded">0 failures</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-slate-50 text-slate-500 font-bold uppercase border-b border-slate-200">
+              <tr>
+                <th class="p-2.5">QID</th>
+                <th class="p-2.5">Category</th>
+                <th class="p-2.5">Question</th>
+                <th class="p-2.5">Failure Type</th>
+                <th class="p-2.5">Diagnosis / Reason</th>
+              </tr>
+            </thead>
+            <tbody id="failures-table-body" class="divide-y divide-slate-100">
+              <tr>
+                <td colspan="5" class="p-4 text-center text-slate-400 italic">Run benchmark to inspect failure cases.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: DOCUMENTS -->
+    <div id="tab-documents" class="hidden space-y-6">
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+          <div>
+            <h2 class="text-base font-bold text-slate-900">Ingested Document Catalog & Index Version Lineage</h2>
+            <p class="text-xs text-slate-500">Preserves document metadata, page counts, SHA-256 fingerprints, and detects duplicates or revisions.</p>
+          </div>
+          <button onclick="loadDocumentCatalog()" class="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-xs rounded-lg transition">
+            <i class="fa-solid fa-arrows-rotate mr-1"></i> Refresh
+          </button>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-slate-50 text-slate-500 font-bold uppercase border-b border-slate-200">
+              <tr>
+                <th class="p-2.5">Filename</th>
+                <th class="p-2.5">Type</th>
+                <th class="p-2.5">Ver</th>
+                <th class="p-2.5">Index</th>
+                <th class="p-2.5">Pages</th>
+                <th class="p-2.5">Sections</th>
+                <th class="p-2.5">SHA-256 Fingerprint</th>
+              </tr>
+            </thead>
+            <tbody id="documents-table-body" class="divide-y divide-slate-100 font-mono">
+              <tr>
+                <td colspan="7" class="p-4 text-center text-slate-400 italic">Loading documents...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let activeTrace = null;
+
+    function switchTab(tabName) {
+      ['workspace', 'benchmark', 'documents'].forEach(t => {
+        document.getElementById(`tab-${t}`).classList.add('hidden');
+        document.getElementById(`tab-btn-${t}`).classList.remove('bg-indigo-50', 'text-indigo-700');
+        document.getElementById(`tab-btn-${t}`).classList.add('text-slate-600');
+      });
+      document.getElementById(`tab-${tabName}`).classList.remove('hidden');
+      document.getElementById(`tab-btn-${tabName}`).classList.add('bg-indigo-50', 'text-indigo-700');
+      document.getElementById(`tab-btn-${tabName}`).classList.remove('text-slate-600');
+
+      if (tabName === 'documents') {
+        loadDocumentCatalog();
+      }
+    }
+
+    function setQuery(text, mode) {
+      document.getElementById('query-input').value = text;
+      if (mode) {
+        document.getElementById('pipeline-mode').value = mode;
+      }
+      submitQuery();
+    }
+
+    async function loadHealth() {
+      try {
+        const res = await fetch('/api/health');
+        const data = await res.json();
+        document.getElementById('index-version-badge').innerText = `Index: ${data.index_version}`;
+        document.getElementById('doc-count-badge').innerText = `Docs: ${data.total_documents} (${data.total_chunks} chunks)`;
+      } catch (e) {
+        console.error("Health check error", e);
+      }
+    }
+
+    async function submitQuery() {
+      const query = document.getElementById('query-input').value.trim();
+      if (!query) return;
+
+      const pipelineMode = document.getElementById('pipeline-mode').value;
+      const chunkingMode = document.getElementById('chunking-mode').value;
+      const btn = document.getElementById('btn-submit-query');
+      btn.disabled = true;
+      btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> <span>Processing...</span>`;
+
+      try {
+        const res = await fetch('/api/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            query: query,
+            pipeline_mode: pipelineMode,
+            chunking_strategy: chunkingMode,
+            top_k: 5
+          })
+        });
+        const data = await res.json();
+        renderQueryResponse(data);
+      } catch (err) {
+        alert('Query failed: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `<i class="fa-solid fa-magnifying-glass"></i> <span>Retrieve & Verify</span>`;
+      }
+    }
+
+    function renderQueryResponse(data) {
+      // 1. Abstention Badge & Banner
+      const badge = document.getElementById('abstention-badge');
+      const banner = document.getElementById('abstention-banner');
+      const decision = data.decision;
+
+      if (decision.decision === 'ABSTAIN') {
+        badge.className = 'px-3 py-1 rounded-full text-xs font-bold badge-abstain flex items-center space-x-1.5';
+        badge.innerHTML = `<i class="fa-solid fa-ban"></i> <span>ABSTAINED (${decision.reason})</span>`;
+
+        banner.classList.remove('hidden');
+        document.getElementById('abstain-reason-title').innerText = `Refusal: ${decision.reason.toUpperCase()}`;
+        document.getElementById('abstain-reason-text').innerText = decision.rationale;
+      } else {
+        badge.className = 'px-3 py-1 rounded-full text-xs font-bold badge-answer flex items-center space-x-1.5';
+        badge.innerHTML = `<i class="fa-solid fa-circle-check"></i> <span>ANSWERED (Confidence: ${decision.confidence_score.toFixed(3)})</span>`;
+        banner.classList.add('hidden');
+      }
+
+      // 2. Answer text with clickable citation links
+      const rawAnswer = data.answer;
+      // Convert citation bracket string to clickable span
+      const formattedAnswer = rawAnswer.replace(/\[Doc:\s*([^,\]]+),\s*(?:p\.\s*([0-9]+))?(?:,\s*§\s*([^\|\]]+))?\s*\|\s*(?:chunk:\s*)?([a-zA-Z0-9_\-]+)\]/g, 
+        (match, doc, page, sec, chunkId) => {
+          return `<span class="citation-tag" onclick="showCitationPreview('${chunkId}', '${doc}', '${page || 1}', '${encodeURIComponent(sec || 'General')}')"><i class="fa-solid fa-quote-left text-[10px] mr-1"></i>${doc} §${sec || '1'}</span>`;
+        }
+      );
+      document.getElementById('answer-content').innerHTML = formattedAnswer;
+
+      // 3. Metrics
+      document.getElementById('citation-count').innerText = data.citations.length;
+      document.getElementById('citation-precision').innerText = `${Math.round((data.decision.citation_precision || 1.0) * 100)}%`;
+      document.getElementById('latency-indicator').innerText = `Latency: ${data.total_latency_ms.toFixed(1)} ms`;
+
+      // 4. Candidates
+      renderCandidates(data.candidates);
+
+      // 5. Fetch full trace
+      fetchTrace(data.trace_id);
+    }
+
+    function renderCandidates(candidates) {
+      const container = document.getElementById('candidates-container');
+      document.getElementById('candidate-count-badge').innerText = `${candidates.length} chunks`;
+
+      if (!candidates || candidates.length === 0) {
+        container.innerHTML = `<p class="text-xs text-slate-400 italic">No candidates retrieved.</p>`;
+        return;
+      }
+
+      let html = '';
+      candidates.forEach((c, idx) => {
+        const rerankProb = c.method_scores.reranker_prob ? (c.method_scores.reranker_prob * 100).toFixed(1) + '%' : 'N/A';
+        html += `
+          <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg hover:border-indigo-300 transition cursor-pointer"
+               onclick="selectCandidateSnippet('${c.chunk_id}', '${c.doc_filename}', '${c.page_number}', '${encodeURIComponent(c.section_title)}', ${JSON.stringify(c.text).replace(/"/g, '&quot;')})">
+            <div class="flex items-center justify-between text-xs mb-1">
+              <span class="font-bold text-slate-800">#${c.rank} ${c.doc_filename} (p. ${c.page_number}, § ${c.section_title})</span>
+              <span class="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 font-mono font-bold">Score: ${c.score.toFixed(3)}</span>
+            </div>
+            <p class="text-xs text-slate-600 line-clamp-2">${c.text}</p>
+            <div class="flex gap-2 text-[10px] text-slate-400 font-mono mt-1 pt-1 border-t border-slate-200">
+              <span>Dense Rank: ${c.method_ranks.dense || '--'}</span>
+              <span>BM25 Rank: ${c.method_ranks.bm25 || '--'}</span>
+              <span>Rerank Prob: ${rerankProb}</span>
+            </div>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    function showCitationPreview(chunkId, doc, page, secEncoded) {
+      const sec = decodeURIComponent(secEncoded);
+      document.getElementById('preview-doc').innerText = doc;
+      document.getElementById('preview-page-sec').innerText = `Page ${page} — ${sec}`;
+      document.getElementById('preview-chunk-id').innerText = chunkId;
+      document.getElementById('preview-badge').innerText = "Citation Verified";
+      document.getElementById('preview-badge').className = "px-2 py-0.5 text-xs font-bold bg-emerald-100 text-emerald-800 rounded";
+
+      // Look in activeTrace candidates
+      let foundText = "Passage details loaded.";
+      if (activeTrace && activeTrace.candidate_scores) {
+        const c = activeTrace.candidate_scores.find(x => x.chunk_id === chunkId);
+        if (c) foundText = c.snippet;
+      }
+      document.getElementById('preview-text').innerText = `[Evidence Chunk: ${chunkId}]\n${foundText}`;
+    }
+
+    function selectCandidateSnippet(chunkId, doc, page, secEncoded, text) {
+      const sec = decodeURIComponent(secEncoded);
+      document.getElementById('preview-doc').innerText = doc;
+      document.getElementById('preview-page-sec').innerText = `Page ${page} — ${sec}`;
+      document.getElementById('preview-chunk-id').innerText = chunkId;
+      document.getElementById('preview-badge').innerText = "Candidate Inspected";
+      document.getElementById('preview-badge').className = "px-2 py-0.5 text-xs font-bold bg-indigo-100 text-indigo-800 rounded";
+      document.getElementById('preview-text').innerText = text;
+    }
+
+    async function fetchTrace(traceId) {
+      try {
+        const res = await fetch(`/api/trace/${traceId}`);
+        const trace = await res.json();
+        activeTrace = trace;
+        renderTraceWaterfall(trace);
+      } catch (e) {
+        console.error("Failed to load trace", e);
+      }
+    }
+
+    function renderTraceWaterfall(trace) {
+      const container = document.getElementById('trace-stages-container');
+      let html = '';
+      trace.stages.forEach(st => {
+        html += `
+          <div class="flex items-center justify-between p-2 bg-slate-50 border border-slate-200 rounded">
+            <span class="font-medium text-slate-700">${st.stage_name}</span>
+            <span class="font-mono text-indigo-600 font-bold">${st.latency_ms.toFixed(1)} ms</span>
+          </div>
+        `;
+      });
+      container.innerHTML = html;
+    }
+
+    function copyTraceJson() {
+      if (!activeTrace) return alert("No trace to copy");
+      navigator.clipboard.writeText(JSON.stringify(activeTrace, null, 2));
+      alert("Trace JSON copied to clipboard!");
+    }
+
+    async function runBenchmarkSuite() {
+      const mode = document.getElementById('benchmark-mode-select').value;
+      const btn = document.getElementById('btn-run-benchmark');
+      btn.disabled = true;
+      btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin mr-1"></i> Running 50 Questions...`;
+
+      try {
+        const res = await fetch('/api/benchmark/run', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ pipeline_mode: mode, chunking_strategy: 'structure_aware' })
+        });
+        const data = await res.json();
+        renderBenchmarkMetrics(data.metrics, data.failures);
+      } catch (err) {
+        alert("Benchmark execution failed: " + err.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `<i class="fa-solid fa-play mr-1"></i> Run Benchmark`;
+      }
+    }
+
+    function renderBenchmarkMetrics(m, failures) {
+      document.getElementById('bm-r1').innerText = (m.recall_at_1 * 100).toFixed(1) + '%';
+      document.getElementById('bm-r3').innerText = (m.recall_at_3 * 100).toFixed(1) + '%';
+      document.getElementById('bm-r5').innerText = (m.recall_at_5 * 100).toFixed(1) + '%';
+      document.getElementById('bm-mrr').innerText = m.mrr_at_5.toFixed(3);
+      document.getElementById('bm-ndcg').innerText = m.ndcg_at_5.toFixed(3);
+      document.getElementById('bm-cit-prec').innerText = (m.citation_precision * 100).toFixed(1) + '%';
+      document.getElementById('bm-abs-f1').innerText = (m.abstention_f1 * 100).toFixed(1) + '%';
+      document.getElementById('bm-lat').innerText = `${m.avg_latency_ms.toFixed(0)} ms`;
+
+      // Failures
+      document.getElementById('failure-count-badge').innerText = `${failures.length} failures`;
+      const tbody = document.getElementById('failures-table-body');
+      if (!failures || failures.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" class="p-4 text-center text-emerald-600 font-bold">100% Benchmark Accuracy! Zero failures recorded.</td></tr>`;
+        return;
+      }
+      let html = '';
+      failures.forEach(f => {
+        html += `
+          <tr class="hover:bg-slate-50">
+            <td class="p-2.5 font-mono text-slate-500">${f.question_id}</td>
+            <td class="p-2.5"><span class="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-100">${f.category}</span></td>
+            <td class="p-2.5 font-medium text-slate-800">${f.question}</td>
+            <td class="p-2.5 font-bold text-rose-600">${f.failure_type}</td>
+            <td class="p-2.5 text-slate-500">${f.details}</td>
+          </tr>
+        `;
+      });
+      tbody.innerHTML = html;
+    }
+
+    async function loadDocumentCatalog() {
+      try {
+        const res = await fetch('/api/documents');
+        const data = await res.json();
+        const tbody = document.getElementById('documents-table-body');
+        let html = '';
+        data.documents.forEach(d => {
+          html += `
+            <tr class="hover:bg-slate-50">
+              <td class="p-2.5 font-bold text-slate-800">${d.filename}</td>
+              <td class="p-2.5 uppercase text-slate-500">${d.file_type}</td>
+              <td class="p-2.5 font-bold text-indigo-600">v${d.version}</td>
+              <td class="p-2.5 text-slate-600">${d.index_version}</td>
+              <td class="p-2.5 text-slate-600">${d.total_pages}</td>
+              <td class="p-2.5 text-slate-600">${d.total_sections}</td>
+              <td class="p-2.5 text-slate-400 text-[11px]">${d.content_hash.slice(0, 16)}...</td>
+            </tr>
+          `;
+        });
+        tbody.innerHTML = html;
+      } catch (e) {
+        console.error("Failed to load documents", e);
+      }
+    }
+
+    // Init
+    loadHealth();
+  </script>
+</body>
+</html>

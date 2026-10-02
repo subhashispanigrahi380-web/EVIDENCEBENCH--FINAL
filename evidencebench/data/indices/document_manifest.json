@@ -1,0 +1,1449 @@
+{
+  "index_version": "v1.0",
+  "document_count": 9,
+  "documents": [
+    {
+      "metadata": {
+        "doc_id": "40039611-917f-4373-8d1e-0e5da6195aec",
+        "filename": "climate_policy_eu_2024.md",
+        "file_type": "markdown",
+        "content_hash": "b29e493a02ec5d0cda07cf79defa24afccda28990161ac8e8e0ae8e0a143fe3d",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.126532",
+        "total_pages": 1,
+        "total_sections": 4,
+        "total_characters": 1031,
+        "custom_metadata": {}
+      },
+      "raw_text": "# EU Climate Policy Framework 2024\n\n## 1. Emissions Reduction Targets\nThe European Union has codified a legally binding greenhouse gas emissions reduction target of 55% by 2030 compared to 1990 baseline levels. This target is anchored in the European Climate Law and forms the cornerstone of the Fit for 55 regulatory package. Net-zero emissions must be achieved across all member states no later than 2050.\n\n## 2. Renewable Energy Directive\nMember states are mandated to achieve a minimum 42.5% share of renewable energy in gross final energy consumption by 2030, with an aspirational target of reaching 45%. Permitting processes for wind and solar installations have been streamlined under designated acceleration zones.\n\n## 3. Just Transition Mechanism and Budget\nThe Just Transition Fund has allocated a total budget of 19.2 billion EUR to assist carbon-intensive regions in retraining industrial workers and modernizing energy infrastructure. Coal phase-out deadlines remain fixed for 2038 across participating member states.\n",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "# EU Climate Policy Framework 2024\n\n## 1. Emissions Reduction Targets\nThe European Union has codified a legally binding greenhouse gas emissions reduction target of 55% by 2030 compared to 1990 baseline levels. This target is anchored in the European Climate Law and forms the cornerstone of the Fit for 55 regulatory package. Net-zero emissions must be achieved across all member states no later than 2050.\n\n## 2. Renewable Energy Directive\nMember states are mandated to achieve a minimum 42.5% share of renewable energy in gross final energy consumption by 2030, with an aspirational target of reaching 45%. Permitting processes for wind and solar installations have been streamlined under designated acceleration zones.\n\n## 3. Just Transition Mechanism and Budget\nThe Just Transition Fund has allocated a total budget of 19.2 billion EUR to assist carbon-intensive regions in retraining industrial workers and modernizing energy infrastructure. Coal phase-out deadlines remain fixed for 2038 across participating member states.\n",
+          "char_count": 1031,
+          "sections": [
+            "EU Climate Policy Framework 2024",
+            "1. Emissions Reduction Targets",
+            "2. Renewable Energy Directive",
+            "3. Just Transition Mechanism and Budget"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_md_0",
+          "title": "EU Climate Policy Framework 2024",
+          "level": 1,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2024"
+          ],
+          "start_char": 0,
+          "end_char": 36,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_1",
+          "title": "1. Emissions Reduction Targets",
+          "level": 2,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2024",
+            "1. Emissions Reduction Targets"
+          ],
+          "start_char": 36,
+          "end_char": 409,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_2",
+          "title": "2. Renewable Energy Directive",
+          "level": 2,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2024",
+            "2. Renewable Energy Directive"
+          ],
+          "start_char": 409,
+          "end_char": 724,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_3",
+          "title": "3. Just Transition Mechanism and Budget",
+          "level": 2,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2024",
+            "3. Just Transition Mechanism and Budget"
+          ],
+          "start_char": 724,
+          "end_char": 1031,
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "25beba29-457c-4e78-b93a-85dcf34cdf59",
+        "filename": "climate_policy_eu_revision_2025.md",
+        "file_type": "markdown",
+        "content_hash": "4c06edd780e99f91952dd70f4865c1d7ac6dea32df57f19a8abb24d6c7fedd4e",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.128018",
+        "total_pages": 1,
+        "total_sections": 3,
+        "total_characters": 632,
+        "custom_metadata": {}
+      },
+      "raw_text": "# EU Climate Policy Framework 2025 Revision\n\n## 1. Emissions Reduction Targets Amendment\nUnder the 2025 revised parliamentary directive, the 2030 net greenhouse gas emissions target has been revised to 40% reduction due to industrial supply chain bottlenecks and macroeconomic adjustments. The earlier 55% target was officially superseded by Resolution 2025/B9.\n\n## 2. Just Transition Fund Budget Reallocation\nThe revised 2025 budget for the Just Transition Mechanism is set to 28.5 billion EUR, reflecting an additional emergency modernization tranche. National allocations have been adjusted to prioritize heavy chemical sectors.\n",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "# EU Climate Policy Framework 2025 Revision\n\n## 1. Emissions Reduction Targets Amendment\nUnder the 2025 revised parliamentary directive, the 2030 net greenhouse gas emissions target has been revised to 40% reduction due to industrial supply chain bottlenecks and macroeconomic adjustments. The earlier 55% target was officially superseded by Resolution 2025/B9.\n\n## 2. Just Transition Fund Budget Reallocation\nThe revised 2025 budget for the Just Transition Mechanism is set to 28.5 billion EUR, reflecting an additional emergency modernization tranche. National allocations have been adjusted to prioritize heavy chemical sectors.\n",
+          "char_count": 632,
+          "sections": [
+            "EU Climate Policy Framework 2025 Revision",
+            "1. Emissions Reduction Targets Amendment",
+            "2. Just Transition Fund Budget Reallocation"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_md_0",
+          "title": "EU Climate Policy Framework 2025 Revision",
+          "level": 1,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2025 Revision"
+          ],
+          "start_char": 0,
+          "end_char": 45,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_1",
+          "title": "1. Emissions Reduction Targets Amendment",
+          "level": 2,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2025 Revision",
+            "1. Emissions Reduction Targets Amendment"
+          ],
+          "start_char": 45,
+          "end_char": 363,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_2",
+          "title": "2. Just Transition Fund Budget Reallocation",
+          "level": 2,
+          "hierarchy_path": [
+            "EU Climate Policy Framework 2025 Revision",
+            "2. Just Transition Fund Budget Reallocation"
+          ],
+          "start_char": 363,
+          "end_char": 632,
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "7b718ff3-24a9-417f-b4aa-9503590f433e",
+        "filename": "cloud_architecture_2025.pdf",
+        "file_type": "pdf",
+        "content_hash": "ca202e1617b16981f8132b5f8527de8ae98310514e34ca1efac772e7004634da",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.140041",
+        "total_pages": 3,
+        "total_sections": 6,
+        "total_characters": 2258,
+        "custom_metadata": {}
+      },
+      "raw_text": "Cloud Architecture Specifications 2025\n1. Executive Summary and SLA Targets\nThe NextGen Cloud Platform provides enterprise-grade infrastructure with guaranteed availability of 99.999%\nuptime across all Tier-4 availability zones. The system enforces a strict p99 latency SLA limit of 15ms for\ninternal RPC calls. In the event of an unplanned primary region outage, the automated disaster recovery\nprotocol executes cross-region failover within 30 seconds with zero committed data loss.\n2. Availability Zone Topology\nDeployments span a minimum of three distinct physical availability zones separated by at least 25 kilometers to\nprotect against local environmental disasters. Inter-zone network traffic travels over dedicated dark fiber with\nredundant 400 Gbps optical transport.\n\n3. Distributed Storage Layer and Consensus\nThe distributed object and metadata store relies on the Raft consensus algorithm. Each cluster maintains a\nquorum of 5 replicas, requiring a minimum of 3 positive acknowledgments before committing any write to disk.\nWrite-ahead logs (WAL) are flushed to non-volatile NVMe storage synchronously before ack. Snapshot\ncompaction runs automatically every 6 hours or whenever the WAL exceeds 10,000 log entries.\n4. Storage Durability and Replication\nObject data achieves an annual durability guarantee of eleven nines (99.999999999%). Data chunks are\nerasure coded using an 8+4 Reed-Solomon scheme across failure domains. Storage tiering transitions cold\nobjects to deep archive storage after 90 days of inactivity.\n\n5. Security, Encryption, and Egress Pricing\nAll data at rest is encrypted using AES-256-GCM with customer-managed keys rotated annually. In-transit\ncommunication requires mandatory TLS 1.3 encryption with forward secrecy. Tenant API access is strictly\nthrottled to a default rate limit of 10,000 req/sec per tenant. Standard external data egress pricing is fixed at\n$0.05 per gigabyte for the first 50 terabytes, discounted to $0.03 per gigabyte thereafter.\n6. Audit Logging and Compliance\nImmutable audit trails capture all administrative operations and access requests. Audit logs are retained for 7\nyears in write-once-read-many (WORM) compliant storage fulfilling SOC-2 Type II, ISO 27001, and HIPAA\ncompliance mandates.",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "Cloud Architecture Specifications 2025\n1. Executive Summary and SLA Targets\nThe NextGen Cloud Platform provides enterprise-grade infrastructure with guaranteed availability of 99.999%\nuptime across all Tier-4 availability zones. The system enforces a strict p99 latency SLA limit of 15ms for\ninternal RPC calls. In the event of an unplanned primary region outage, the automated disaster recovery\nprotocol executes cross-region failover within 30 seconds with zero committed data loss.\n2. Availability Zone Topology\nDeployments span a minimum of three distinct physical availability zones separated by at least 25 kilometers to\nprotect against local environmental disasters. Inter-zone network traffic travels over dedicated dark fiber with\nredundant 400 Gbps optical transport.",
+          "char_count": 777,
+          "sections": []
+        },
+        {
+          "page_number": 2,
+          "text": "3. Distributed Storage Layer and Consensus\nThe distributed object and metadata store relies on the Raft consensus algorithm. Each cluster maintains a\nquorum of 5 replicas, requiring a minimum of 3 positive acknowledgments before committing any write to disk.\nWrite-ahead logs (WAL) are flushed to non-volatile NVMe storage synchronously before ack. Snapshot\ncompaction runs automatically every 6 hours or whenever the WAL exceeds 10,000 log entries.\n4. Storage Durability and Replication\nObject data achieves an annual durability guarantee of eleven nines (99.999999999%). Data chunks are\nerasure coded using an 8+4 Reed-Solomon scheme across failure domains. Storage tiering transitions cold\nobjects to deep archive storage after 90 days of inactivity.",
+          "char_count": 753,
+          "sections": []
+        },
+        {
+          "page_number": 3,
+          "text": "5. Security, Encryption, and Egress Pricing\nAll data at rest is encrypted using AES-256-GCM with customer-managed keys rotated annually. In-transit\ncommunication requires mandatory TLS 1.3 encryption with forward secrecy. Tenant API access is strictly\nthrottled to a default rate limit of 10,000 req/sec per tenant. Standard external data egress pricing is fixed at\n$0.05 per gigabyte for the first 50 terabytes, discounted to $0.03 per gigabyte thereafter.\n6. Audit Logging and Compliance\nImmutable audit trails capture all administrative operations and access requests. Audit logs are retained for 7\nyears in write-once-read-many (WORM) compliant storage fulfilling SOC-2 Type II, ISO 27001, and HIPAA\ncompliance mandates.",
+          "char_count": 724,
+          "sections": []
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_p1_0",
+          "title": "1. Executive Summary and SLA Targets",
+          "level": 1,
+          "hierarchy_path": [
+            "1. Executive Summary and SLA Targets"
+          ],
+          "start_char": 39,
+          "end_char": 485,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_1",
+          "title": "2. Availability Zone Topology\nDeployments span a minimum of three distinct physical availability zones separated by at least 25 kilometers to",
+          "level": 1,
+          "hierarchy_path": [
+            "2. Availability Zone Topology\nDeployments span a minimum of three distinct physical availability zones separated by at least 25 kilometers to"
+          ],
+          "start_char": 485,
+          "end_char": 779,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p2_2",
+          "title": "3. Distributed Storage Layer and Consensus",
+          "level": 1,
+          "hierarchy_path": [
+            "3. Distributed Storage Layer and Consensus"
+          ],
+          "start_char": 779,
+          "end_char": 1229,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_3",
+          "title": "4. Storage Durability and Replication",
+          "level": 1,
+          "hierarchy_path": [
+            "4. Storage Durability and Replication"
+          ],
+          "start_char": 1229,
+          "end_char": 1534,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p3_4",
+          "title": "5. Security, Encryption, and Egress Pricing",
+          "level": 1,
+          "hierarchy_path": [
+            "5. Security, Encryption, and Egress Pricing"
+          ],
+          "start_char": 1534,
+          "end_char": 1992,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_5",
+          "title": "6. Audit Logging and Compliance",
+          "level": 1,
+          "hierarchy_path": [
+            "6. Audit Logging and Compliance"
+          ],
+          "start_char": 1992,
+          "end_char": 2258,
+          "page_number": 3
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "a2cbb36a-dea3-4272-a297-6ac2f41bb27b",
+        "filename": "distributed_systems_consensus.txt",
+        "file_type": "text",
+        "content_hash": "df15675710d2ef1cd21af04fe367f21354e554008f6b618fb69740b3e8e0a2a7",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.142241",
+        "total_pages": 1,
+        "total_sections": 2,
+        "total_characters": 1046,
+        "custom_metadata": {}
+      },
+      "raw_text": "=== Consensus Mechanisms in Distributed Computing ===\n\nRaft is a consensus algorithm designed for understandability and operational safety. A Raft cluster consists of a leader, followers, and candidates. The leader maintains heartbeat intervals of 150ms to prevent follower election timeouts.\n\nWhen a follower does not receive a heartbeat within the election timeout (randomized between 150ms and 300ms), it transitions to candidate state, increments its term counter, and requests votes from peers.\n\nLog entries are committed only when safely replicated across a majority quorum. Raft guarantees the Leader Completeness Property: if a log entry is committed in a given term, that entry will be present in the logs of the leaders for all higher-numbered terms.\n\n=== Paxos Comparison ===\nMulti-Paxos provides equivalent consensus guarantees but merges phase 1 rounds during steady-state leader operation. However, implementation complexity is significantly higher than Raft, particularly regarding log hole filling and membership reconfiguration.\n",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "=== Consensus Mechanisms in Distributed Computing ===\n\nRaft is a consensus algorithm designed for understandability and operational safety. A Raft cluster consists of a leader, followers, and candidates. The leader maintains heartbeat intervals of 150ms to prevent follower election timeouts.\n\nWhen a follower does not receive a heartbeat within the election timeout (randomized between 150ms and 300ms), it transitions to candidate state, increments its term counter, and requests votes from peers.\n\nLog entries are committed only when safely replicated across a majority quorum. Raft guarantees the Leader Completeness Property: if a log entry is committed in a given term, that entry will be present in the logs of the leaders for all higher-numbered terms.\n\n=== Paxos Comparison ===\nMulti-Paxos provides equivalent consensus guarantees but merges phase 1 rounds during steady-state leader operation. However, implementation complexity is significantly higher than Raft, particularly regarding log hole filling and membership reconfiguration.\n",
+          "char_count": 1046,
+          "sections": [
+            "Consensus Mechanisms in Distributed Computing",
+            "Paxos Comparison"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_txt_0",
+          "title": "Consensus Mechanisms in Distributed Computing",
+          "level": 1,
+          "hierarchy_path": [
+            "Consensus Mechanisms in Distributed Computing"
+          ],
+          "start_char": 0,
+          "end_char": 762,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_txt_1",
+          "title": "Paxos Comparison",
+          "level": 1,
+          "hierarchy_path": [
+            "Paxos Comparison"
+          ],
+          "start_char": 762,
+          "end_char": 1046,
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "568ef9df-0bc1-4399-94fd-90a4308fb5aa",
+        "filename": "financial_q3_report_alpha.pdf",
+        "file_type": "pdf",
+        "content_hash": "c91500feb9fc1a04649af4ca2528d49b4ef8856d27d06b352bd6f6db35da2626",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.148994",
+        "total_pages": 2,
+        "total_sections": 4,
+        "total_characters": 1066,
+        "custom_metadata": {}
+      },
+      "raw_text": "Apex Financial Corp - Q3 Official Earnings Report\n1. Consolidated Financial Highlights\nApex Financial Corp reported total quarterly revenue of $4.2B for Q3 2024, representing an increase of 14%\nyear-over-year. GAAP net income reached $820M. The consolidated gross margin was 68%, driven by cloud\nsoftware license expansion. The company reported official adjusted EBITDA of $950M with an EBITDA margin\nof 22.6%.\n2. Cash Flow and Liquidity\nOperating cash flow reached $1.1B during the quarter. Cash and cash equivalents totaled $3.4B at the close of\nQ3. Free cash flow conversion stood at 85% of adjusted EBITDA.\n\n3. Capital Expenditures and R&D; Investment\nTotal R&D; investment for the quarter was $640M, focused primarily on generative AI models and distributed\ndatabase engineering. Capital expenditures totaled $310M, representing infrastructure buildouts in Frankfurt\nand Tokyo.\n4. Full-Year 2024 Guidance\nManagement updated full-year revenue guidance to a range between $16.8B and $17.1B. Full-year operating\nmargin is anticipated to remain between 21% and 23%.",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "Apex Financial Corp - Q3 Official Earnings Report\n1. Consolidated Financial Highlights\nApex Financial Corp reported total quarterly revenue of $4.2B for Q3 2024, representing an increase of 14%\nyear-over-year. GAAP net income reached $820M. The consolidated gross margin was 68%, driven by cloud\nsoftware license expansion. The company reported official adjusted EBITDA of $950M with an EBITDA margin\nof 22.6%.\n2. Cash Flow and Liquidity\nOperating cash flow reached $1.1B during the quarter. Cash and cash equivalents totaled $3.4B at the close of\nQ3. Free cash flow conversion stood at 85% of adjusted EBITDA.",
+          "char_count": 610,
+          "sections": []
+        },
+        {
+          "page_number": 2,
+          "text": "3. Capital Expenditures and R&D; Investment\nTotal R&D; investment for the quarter was $640M, focused primarily on generative AI models and distributed\ndatabase engineering. Capital expenditures totaled $310M, representing infrastructure buildouts in Frankfurt\nand Tokyo.\n4. Full-Year 2024 Guidance\nManagement updated full-year revenue guidance to a range between $16.8B and $17.1B. Full-year operating\nmargin is anticipated to remain between 21% and 23%.",
+          "char_count": 454,
+          "sections": []
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_p1_0",
+          "title": "1. Consolidated Financial Highlights",
+          "level": 1,
+          "hierarchy_path": [
+            "1. Consolidated Financial Highlights"
+          ],
+          "start_char": 50,
+          "end_char": 411,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_1",
+          "title": "2. Cash Flow and Liquidity",
+          "level": 1,
+          "hierarchy_path": [
+            "2. Cash Flow and Liquidity"
+          ],
+          "start_char": 411,
+          "end_char": 612,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p2_2",
+          "title": "3. Capital Expenditures and R&D; Investment",
+          "level": 1,
+          "hierarchy_path": [
+            "3. Capital Expenditures and R&D; Investment"
+          ],
+          "start_char": 612,
+          "end_char": 883,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_3",
+          "title": "4. Full-Year 2024 Guidance",
+          "level": 1,
+          "hierarchy_path": [
+            "4. Full-Year 2024 Guidance"
+          ],
+          "start_char": 883,
+          "end_char": 1066,
+          "page_number": 2
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "b5615c08-2aaa-45a8-9433-ef503de724a6",
+        "filename": "financial_q3_report_beta_discrepancy.md",
+        "file_type": "markdown",
+        "content_hash": "33bee87af4fd77b7d1bbd5207eedc8a1be7e0b87b34250b2a19ffae30806e396",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.151307",
+        "total_pages": 1,
+        "total_sections": 3,
+        "total_characters": 586,
+        "custom_metadata": {}
+      },
+      "raw_text": "# Equity Research Note: Apex Financial Q3 Audit Review\n\n## 1. Disputed Operating Metrics\nAnalyst Beta published an independent audit note disputing Apex Financial's Q3 performance figures. The research note indicates that adjusted EBITDA was $650M with an EBITDA margin of 15.5%, contradicting the company's official filing of $950M due to capital lease capitalization disputes.\n\n## 2. Valuation and Rating\nDue to conflicting EBITDA calculations and deferred revenue treatments, the stock rating was downgraded from Overweight to Neutral, with a price target reduced from $140 to $105.\n",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "# Equity Research Note: Apex Financial Q3 Audit Review\n\n## 1. Disputed Operating Metrics\nAnalyst Beta published an independent audit note disputing Apex Financial's Q3 performance figures. The research note indicates that adjusted EBITDA was $650M with an EBITDA margin of 15.5%, contradicting the company's official filing of $950M due to capital lease capitalization disputes.\n\n## 2. Valuation and Rating\nDue to conflicting EBITDA calculations and deferred revenue treatments, the stock rating was downgraded from Overweight to Neutral, with a price target reduced from $140 to $105.\n",
+          "char_count": 586,
+          "sections": [
+            "Equity Research Note: Apex Financial Q3 Audit Review",
+            "1. Disputed Operating Metrics",
+            "2. Valuation and Rating"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_md_0",
+          "title": "Equity Research Note: Apex Financial Q3 Audit Review",
+          "level": 1,
+          "hierarchy_path": [
+            "Equity Research Note: Apex Financial Q3 Audit Review"
+          ],
+          "start_char": 0,
+          "end_char": 56,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_1",
+          "title": "1. Disputed Operating Metrics",
+          "level": 2,
+          "hierarchy_path": [
+            "Equity Research Note: Apex Financial Q3 Audit Review",
+            "1. Disputed Operating Metrics"
+          ],
+          "start_char": 56,
+          "end_char": 380,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_md_2",
+          "title": "2. Valuation and Rating",
+          "level": 2,
+          "hierarchy_path": [
+            "Equity Research Note: Apex Financial Q3 Audit Review",
+            "2. Valuation and Rating"
+          ],
+          "start_char": 380,
+          "end_char": 586,
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "b7dcb8db-c5ec-4aa8-a3ca-83b6a92ebf27",
+        "filename": "medical_device_iso_compliance.txt",
+        "file_type": "text",
+        "content_hash": "4c529701982e3b1054f6c88eb43369f9bf624d50846bc6105f3c793531a24787",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-26T16:37:08.153187",
+        "total_pages": 1,
+        "total_sections": 2,
+        "total_characters": 844,
+        "custom_metadata": {}
+      },
+      "raw_text": "=== Medical Device Quality Management ISO 13485 ===\n\nISO 13485:2016 specifies requirements for a comprehensive quality management system (QMS) where an organization must demonstrate its ability to provide medical devices and related services that consistently meet customer and applicable regulatory requirements.\n\nDesign controls require formal Design History Files (DHF) documenting design inputs, outputs, verification, validation, and design transfer. Risk management must adhere strictly to ISO 14971 principles throughout the entire product life cycle.\n\n=== Post-Market Surveillance ===\nManufacturers must establish documented procedures to gather, evaluate, and report post-production customer complaints, adverse events, and vigilance reporting within statutory deadlines (e.g., 15 days for serious public health threats under EU MDR).\n",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "=== Medical Device Quality Management ISO 13485 ===\n\nISO 13485:2016 specifies requirements for a comprehensive quality management system (QMS) where an organization must demonstrate its ability to provide medical devices and related services that consistently meet customer and applicable regulatory requirements.\n\nDesign controls require formal Design History Files (DHF) documenting design inputs, outputs, verification, validation, and design transfer. Risk management must adhere strictly to ISO 14971 principles throughout the entire product life cycle.\n\n=== Post-Market Surveillance ===\nManufacturers must establish documented procedures to gather, evaluate, and report post-production customer complaints, adverse events, and vigilance reporting within statutory deadlines (e.g., 15 days for serious public health threats under EU MDR).\n",
+          "char_count": 844,
+          "sections": [
+            "Medical Device Quality Management ISO 13485",
+            "Post-Market Surveillance"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_txt_0",
+          "title": "Medical Device Quality Management ISO 13485",
+          "level": 1,
+          "hierarchy_path": [
+            "Medical Device Quality Management ISO 13485"
+          ],
+          "start_char": 0,
+          "end_char": 560,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_txt_1",
+          "title": "Post-Market Surveillance",
+          "level": 1,
+          "hierarchy_path": [
+            "Post-Market Surveillance"
+          ],
+          "start_char": 560,
+          "end_char": 844,
+          "page_number": 1
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "886785dd-2453-4b3c-a330-a7b80d767f00",
+        "filename": "AI_Club_NIT_Rourkela_AI_Track_Induction_2026 (1).pdf",
+        "file_type": "pdf",
+        "content_hash": "5a7c4f65253514df30d64969615053a63b8471aa2d8f2ef56c7d8cbc7b1ca1b5",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-29T06:00:37.303065+00:00",
+        "total_pages": 10,
+        "total_sections": 70,
+        "total_characters": 35497,
+        "custom_metadata": {}
+      },
+      "raw_text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 1/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n01 MACHINE LEARNING  /  SHIFTPROOF\nBuild a reliable decision system that knows when it may be wrong.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a complete machine-learning product that predicts whether an \noperational request will miss its service deadline. The input will be noisy \ntabular data with missing values, categorical fields, class imbalance and \nchanges over time. Your system must produce a prediction, a confidence \nscore and an \u201cuncertain - send for review\u201d result when confidence is too \nlow.\nCORE REQUIREMENTS\n\u2022 Create a repeatable data pipeline for cleaning, encoding and validating \nthe dataset.\n\u2022 Use a time-based train/validation/test split so future records never \nleak into training.\n\u2022 Build one simple baseline yourself, such as logistic regression or a \nsmall decision tree.\n\u2022 Compare the baseline with at least two stronger library models.\n\u2022 Handle missing values, class imbalance and badly formatted inputs.\n\u2022 Calibrate confidence scores so 80% confidence has a meaningful \ninterpretation.\n\u2022 Add an abstention threshold that routes uncertain cases to human \nreview.\n\u2022 Expose the model through a small API and a clean upload/dashboard \ninterface.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The baseline algorithm or its training loop.\n\u2022 The threshold/calibration logic and slice-wise evaluation runner.\n\u2022 The data-drift check that compares training data with new data.\n30-DAY BUILD PLAN\nWeek 1 - understand the data, audit leakage and build \nthe baseline.\nWeek 2 - add stronger models, preprocessing and a \nreproducible training pipeline.\nWeek 3 - calibration, abstention, drift tests and failure \nanalysis.\nWeek 4 - API, dashboard, documentation, tests and \nfinal comparison report.\nEVIDENCE YOU MUST SHOW\n\u2022 Report precision, recall, F1, PR-AUC and calibration - \nnot accuracy alone.\n\u2022 Show results separately for important categories, \ntime periods and rare cases.\n\u2022 Test the system after removing columns, adding \nmissing values and shifting class balance.\n\u2022 Include at least 20 analysed mistakes with likely \ncauses and possible fixes.\n\u2022 Compare the baseline and final system using exactly \nthe same test set.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, NumPy, pandas, scikit-learn, FastAPI, \nStreamlit/React. Equivalent tools are allowed.\nHIGH BAR: A notebook with one model and one accuracy score is not a finished submission.\nMACHINE LEARNING / SKILLLENS\nPredict placement readiness and explain the factors behind the result.\nBuild a machine-learning web app that estimates a student's placement\nreadiness from tabular data such as academics, skills, projects, coding\npractice and internships. The app should return a readiness score or category\nand clearly show the main factors behind the result.\nPrepare or curate a tabular dataset and define the prediction target clearly.\nBuild a repeatable cleaning and preprocessing pipeline for missing values,\ncategorical fields and numeric features.\nTrain a simple baseline such as logistic regression or a decision tree, then\ncompare it with at least one stronger model.\nUse a fixed train/validation/test split and check that target leakage is not\npresent.\nShow a readiness score or category together with feature importance or key\npositive and negative factors.\nSupport single-student input plus CSV upload for batch predictions.\nBuild a clean dashboard with summary cards, charts, filters and a small what-if\nview where changing inputs updates the prediction.\nThe preprocessing and feature-engineering pipeline.\nThe model-comparison and evaluation runner.\nThe explanation and what-if logic shown in the app.\nWeek 1 - define the dataset and target, clean the data\nand build the baseline. Week 2 - train stronger models,\ntune them and freeze the test set. Week 3 - add\nexplainability, CSV predictions, charts and failure\nanalysis. Week 4 - finish the web app, tests,\ndocumentation and demo.\nReport precision, recall, F1 and a confusion matrix; add\nROC-AUC when the task is binary.\nCompare at least two models on exactly the same test\nset.\nShow global feature importance and explanations for\nseveral individual predictions.\nTest missing values, unseen categories and noisy\ninputs without crashing.\nAnalyse at least 20 wrong or uncertain predictions and\nexplain likely causes.\nPython, pandas, scikit-learn, optional XGBoost/LightGBM,\nStreamlit or React.\nHIGH BAR: A notebook with one model and one accuracy score is not a finished SkillLens submission.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 2/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n02 DEEP LEARNING  /  MINIGRAD\nBuild the small deep-learning engine you wish you had learned from.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a miniature automatic-differentiation and neural-network library. \nInstead of calling model.fit() or loss.backward(), your code must \nconstruct a computation graph, calculate gradients and update \nparameters. Then use your engine to train real models and compare its \nbehaviour with PyTorch.\nCORE REQUIREMENTS\n\u2022 Create a Value or Tensor object that stores data, gradients and graph \nconnections.\n\u2022 Support addition, multiplication, matrix multiplication and at least four \nuseful operations.\n\u2022 Implement reverse-mode automatic differentiation and topological \nbackpropagation.\n\u2022 Add dense layers, ReLU or tanh, softmax/cross-entropy and parameter \nmanagement.\n\u2022 Implement SGD and one additional optimizer such as momentum or \nAdam.\n\u2022 Build training, validation, checkpoint save/load and deterministic seed \nsupport.\n\u2022 Train on XOR/two-moons first, then an MNIST or Fashion-MNIST \nsubset.\n\u2022 Create a small visual view of the graph, gradients, activations or loss \ncurve.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The computation graph and backward rules.\n\u2022 A finite-difference gradient checker.\n\u2022 The optimizer and training loop.\n30-DAY BUILD PLAN\nWeek 1 - scalar autograd, graph construction and \ngradient checking.\nWeek 2 - tensor operations, layers, losses and \noptimizers.\nWeek 3 - train real models and compare them with \nPyTorch.\nWeek 4 - visualizer, tests, documentation and failure \nreport.\nEVIDENCE YOU MUST SHOW\n\u2022 Check numerical gradients against your analytical \ngradients for every operation.\n\u2022 Compare outputs and gradients with an equivalent \nPyTorch model.\n\u2022 Show that the model can intentionally overfit one tiny \nbatch before full training.\n\u2022 Run experiments on learning rate, activation function \nand network depth.\n\u2022 Document exploding, vanishing or incorrect \ngradients you encountered.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython and NumPy are recommended. PyTorch may be \nused only for comparison, not as the core engine.\nHIGH BAR: Training a normal PyTorch model does not satisfy this task; the learning engine itself is the project.\nDEEP LEARNING / ECOSORT AI\nClassify waste images into dry, wet, recyclable and e-waste.\nBuild a deep-learning image-classification app that looks at a waste photo and\npredicts whether it is dry, wet, recyclable or e-waste. Use transfer learning,\ncompare model choices, show confidence, and create an interface that works\nwith uploaded images and, where possible, a webcam.\nCollect or prepare a labelled image dataset for dry, wet, recyclable and\ne-waste, and document where the images came from.\nCreate separate train, validation and test splits without duplicate-image\nleakage.\nTrain a baseline model and at least one transfer-learning model; compare two\nmodel choices fairly.\nUse useful augmentation such as crop, flip, rotation or brightness changes and\nmeasure whether it helps.\nTrack training/validation loss and accuracy, save the best checkpoint and make\nruns reproducible.\nReturn the predicted class, confidence score and top alternatives for every\nimage.\nAdd an image upload or webcam demo plus a simple Grad-CAM heatmap that\nhighlights what influenced the prediction.\nThe dataset preparation, split and augmentation pipeline.\nThe training/experiment loop and model-comparison report.\nThe error-analysis and visual-explanation flow.\nWeek 1 - prepare the dataset, splits and a working\nbaseline. Week 2 - train transfer-learning models and run\naugmentation experiments. Week 3 - compare models,\ninspect confusion cases and add Grad-CAM. Week 4 -\nbuild the upload/webcam app, tests, documentation and\ndemo.\nReport per-class precision, recall, F1 and a confusion\nmatrix - not accuracy alone.\nCompare two model choices on the same frozen test\nset.\nTest real phone photos with different lighting,\nbackgrounds, angles and partially visible objects.\nShow at least 20 misclassified images and explain the\nlikely reason for each failure type.\nShow the effect of augmentation and report practical\ninference speed for the final model.\nPython, PyTorch or TensorFlow, OpenCV,\ntorchvision/timm, Streamlit or Gradio.\nHIGH BAR: Using one pretrained model without training, comparison and error analysis is not a complete EcoSort AI project.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 3/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n03 COMPUTER VISION  /  TRACKFORGE\nDetecting an object is easy. Keeping its identity is the real challenge.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a real-time video system that detects, tracks and uniquely counts \nobjects across frames. You may use a pretrained detector, but the \ntracking, object lifecycle and event logic must be your own. The final \napplication should work on uploaded videos and, where possible, a live \ncamera.\nCORE REQUIREMENTS\n\u2022 Run object detection and convert detections into a clean internal \nformat.\n\u2022 Implement a baseline tracker using centroid distance or IoU matching.\n\u2022 Improve association using Hungarian matching and optional motion \nprediction.\n\u2022 Maintain stable track IDs and handle new, missing, lost and recovered \ntracks.\n\u2022 Support line crossing, entry/exit, polygon zones, dwell time and \ndirection.\n\u2022 Prevent double counting when an object pauses, disappears or re-\nenters.\n\u2022 Store event history with timestamps, class, track ID and confidence.\n\u2022 Build a UI that shows video, tracks, paths, zones, counts and live FPS.\nWHAT MUST BE YOUR OWN WORK\n\u2022 Detection-to-track association.\n\u2022 Track lifecycle and occlusion handling.\n\u2022 Zone, crossing and unique-count event logic.\n30-DAY BUILD PLAN\nWeek 1 - detector pipeline, annotation format and \nbaseline tracker.\nWeek 2 - robust association, track lifecycle and event \nengine.\nWeek 3 - ground-truth videos, metrics and difficult-\ncase testing.\nWeek 4 - interface, logging, optimisation, \ndocumentation and final demo.\nEVIDENCE YOU MUST SHOW\n\u2022 Manually annotate at least three short videos as \nground truth.\n\u2022 Measure counting error, duplicate counts, missed \ncrossings, ID switches and FPS.\n\u2022 Test crowded scenes, temporary occlusion, low light \nand objects leaving/re-entering.\n\u2022 Compare at least two association strategies on the \nsame videos.\n\u2022 Show failure clips and explain why the tracker broke.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, OpenCV, NumPy, Ultralytics/PyTorch, \nStreamlit/Gradio/React. The tracker cannot be a one-\nline library call.\nHIGH BAR: Drawing detector boxes and incrementing a counter once per frame is not object tracking.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 4/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n04 NATURAL LANGUAGE PROCESSING  /  CLARITYROUTE\nTurn messy human messages into useful, reviewable decisions.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a support-message intelligence system that predicts intent, \nurgency and important entities. Real messages may contain spelling \nerrors, several intents, short context or completely unknown topics. Your \nsystem must recognise uncertainty instead of forcing every message into \na known class.\nCORE REQUIREMENTS\n\u2022 Create an annotation guide and curate a clean labelled dataset with \nseveral intents.\n\u2022 Build a TF-IDF plus linear-model baseline before using a transformer.\n\u2022 Support multi-label intent classification when one message has \nmultiple requests.\n\u2022 Extract useful entities such as product, department, date, location or \npriority.\n\u2022 Fine-tune or adapt a compact transformer and compare it with the \nbaseline.\n\u2022 Calibrate confidence and add an unknown-topic/abstention decision.\n\u2022 Expose a /predict API that returns labels, entities, confidence and \nwarnings.\n\u2022 Build a review screen where uncertain or wrong predictions can be \ncorrected.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The data/annotation schema and validation pipeline.\n\u2022 Multi-label threshold selection and abstention logic.\n\u2022 The unified evaluator for labels, entities and confidence.\n30-DAY BUILD PLAN\nWeek 1 - annotation guide, data cleaning and TF-IDF \nbaseline.\nWeek 2 - transformer, multi-label support and entity \nextraction.\nWeek 3 - confidence, unknown-topic detection and \nadversarial tests.\nWeek 4 - API, review UI, documentation and full \ncomparison report.\nEVIDENCE YOU MUST SHOW\n\u2022 Report macro-F1, micro-F1, per-class recall, entity F1 \nand calibration.\n\u2022 Create stress tests for spelling mistakes, \nparaphrases, mixed intents and unrelated text.\n\u2022 Analyse at least 30 errors and group them into \nmeaningful failure types.\n\u2022 Compare the baseline and transformer on the same \nfrozen test set.\n\u2022 Show how corrections could be collected for future \nretraining.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, scikit-learn, Hugging Face Transformers, \nFastAPI and any suitable frontend.\nHIGH BAR: A two-label sentiment model with one /predict endpoint is below the required scope.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 5/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n05 REINFORCEMENT LEARNING  /  QUEUECRAFT\nBuild the world, the baselines and the agent - then prove the agent helps.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a scheduling simulation in which jobs arrive with different durations, \npriorities and deadlines. An agent must decide which job should run on \nwhich limited resource. The project is as much about environment and \nreward design as it is about the learning algorithm.\nCORE REQUIREMENTS\n\u2022 Define state, action, transition and reward clearly before coding.\n\u2022 Build a custom environment with reset(), step(), observations and \nepisode termination.\n\u2022 Simulate random arrivals, machine capacity, deadlines and temporary \nfailures.\n\u2022 Implement at least two heuristic baselines such as FIFO and shortest-\njob-first.\n\u2022 Implement tabular Q-learning yourself and explain every update term.\n\u2022 Create low-, medium- and high-load workload generators.\n\u2022 Build a visual replay showing queues, machines, decisions and reward \ncomponents.\n\u2022 Add DQN/PPO only as an extension after the basic system is correct.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The environment and transition logic.\n\u2022 The reward function and Q-learning implementation.\n\u2022 The multi-seed experiment runner.\n30-DAY BUILD PLAN\nWeek 1 - formal problem design, simulator and \nheuristic baselines.\nWeek 2 - Q-learning, training loop and visual episode \nreplay.\nWeek 3 - reward ablations, unseen workloads and \nmulti-seed experiments.\nWeek 4 - interface, documentation, tests and final \npolicy comparison.\nEVIDENCE YOU MUST SHOW\n\u2022 Compare the learned policy against all heuristics on \nunseen workloads.\n\u2022 Measure waiting time, missed deadlines, throughput, \nutilisation and fairness.\n\u2022 Run multiple random seeds and report mean plus \nvariation.\n\u2022 Perform at least three reward-design experiments.\n\u2022 Find and document any reward-hacking or unstable \nbehaviour.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, NumPy, Gymnasium-compatible interfaces and \nMatplotlib/Streamlit for visualisation.\nHIGH BAR: Running a ready-made PPO agent on CartPole does not satisfy this project.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 6/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n06 GENERATIVE AI  /  PROMPTOPS\nBuild a controlled generation platform, not a single prompt demo.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a provider-agnostic platform that converts messy instructions into \nreliable structured outputs. For example, an event brief could become a \nschedule, announcement, task list and content pack. The system must \nvalidate its output, survive model failures and make prompt/model \nchanges measurable.\nCORE REQUIREMENTS\n\u2022 Create one common model interface and support at least two \nbackends or one real plus one mock backend.\n\u2022 Support streaming text and structured JSON output.\n\u2022 Create a versioned prompt registry with variables, metadata and \nchange history.\n\u2022 Validate every structured response against a JSON schema.\n\u2022 Add repair, retry, timeout, fallback and clear error handling.\n\u2022 Add caching and track tokens, latency and estimated cost per run.\n\u2022 Implement a simple routing rule based on task type, quality, speed or \ncost.\n\u2022 Build an experiment UI to compare prompt and model versions side by \nside.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The provider adapter interface and routing layer.\n\u2022 The prompt/version registry and schema-validation pipeline.\n\u2022 The repeatable prompt regression runner.\n30-DAY BUILD PLAN\nWeek 1 - use case, schemas, model adapter and \ndeterministic mock backend.\nWeek 2 - prompt registry, structured generation and \nvalidation/repair.\nWeek 3 - test suite, routing, caching, retries and \ntelemetry.\nWeek 4 - experiment UI, deployment, documentation \nand comparison report.\nEVIDENCE YOU MUST SHOW\n\u2022 Create at least 50 fixed test cases with expected \nproperties.\n\u2022 Report schema-validity rate, instruction-following \nrate, latency, tokens and failures.\n\u2022 Compare at least two prompt versions and two \nmodel configurations.\n\u2022 Test malformed JSON, contradictory instructions, \ntimeouts and interrupted streaming.\n\u2022 Show examples where a cheaper/faster model is \nenough and where it is not.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; any model provider or local \nmodel; FastAPI/Node and any frontend.\nHIGH BAR: A form that sends one prompt to one API and prints the response is not PromptOps.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 7/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n07 LARGE LANGUAGE MODELS  /  TUNEFORGE\nFine-tune an open model and prove that the tuned model is actually better.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nChoose one narrow, useful task and fine-tune a small open-source \nlanguage model for it. Possible tasks include structured extraction, code \nexplanation, tool-call generation, technical Q&A or support response \ndrafting. The project must cover data creation, training, evaluation, \nserving and honest comparison with the original model.\nCORE REQUIREMENTS\n\u2022 Choose a suitable open model, normally between 0.5B and 3B \nparameters.\n\u2022 Define a clear instruction/input/output format for the chosen task.\n\u2022 Create, clean, deduplicate and version a high-quality training dataset.\n\u2022 Split train, validation and test data by source to reduce leakage.\n\u2022 Benchmark the untouched base model before training.\n\u2022 Fine-tune with LoRA or QLoRA, which trains small adapter weights \ninstead of every model weight.\n\u2022 Track training/validation loss, learning rate, gradient norm, memory \nuse and speed.\n\u2022 Serve the final model through an API and a simple comparison \ninterface.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The dataset preparation and validation pipeline.\n\u2022 The experiment/configuration runner for repeatable training.\n\u2022 The base-versus-tuned evaluation and report generator.\n30-DAY BUILD PLAN\nWeek 1 - task design, dataset schema, cleaning and \nbase-model benchmark.\nWeek 2 - first LoRA/QLoRA run and complete training \npipeline.\nWeek 3 - ablations, error analysis and base-versus-\ntuned evaluation.\nWeek 4 - inference API, comparison UI, model card \nand reproducible release.\nEVIDENCE YOU MUST SHOW\n\u2022 Evaluate the base and tuned model on the same \nfrozen test set.\n\u2022 Run at least two ablations: data size, epochs, \nlearning rate, LoRA rank or prompt format.\n\u2022 Measure task correctness, format validity, latency, \nmemory and failure rate.\n\u2022 Check whether the tuned model became worse on \nunrelated general prompts.\n\u2022 Publish a model card describing data, limitations, \nrisks and intended use.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, Hugging Face Transformers, PEFT, \nTRL/Axolotl/Unsloth or equivalent. Use hardware that is \navailable to you.\nHIGH BAR: One fine-tuning run plus a few cherry-picked examples is not evidence of improvement.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 8/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n08 RETRIEVAL-AUGMENTED GENERATION  /  EVIDENCEBENCH\nBuild a knowledge system that retrieves evidence, cites it and knows when to abstain.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a full-stack research workspace that ingests documents and \nanswers questions using verifiable evidence. The difficult part is not the \nchat box; it is parsing, chunking, retrieval, reranking, citation quality, \nabstention, evaluation and observability. Python, TypeScript or another \nsuitable stack is allowed.\nCORE REQUIREMENTS\n\u2022 Ingest PDFs, text and Markdown while preserving document, page and \nsection metadata.\n\u2022 Detect duplicate or updated documents and keep index versions.\n\u2022 Implement and compare at least two chunking strategies.\n\u2022 Implement keyword retrieval and dense vector retrieval.\n\u2022 Combine them with a documented hybrid fusion method.\n\u2022 Retrieve a wider candidate set, rerank it and expose scores in a debug \nview.\n\u2022 Generate answers with passage-level citations and clickable source \npreviews.\n\u2022 Refuse to answer when the available evidence is weak, missing or \nconflicting.\nWHAT MUST BE YOUR OWN WORK\n\u2022 One important component such as hybrid fusion, citation alignment or \nchunking.\n\u2022 The question-dataset runner and retrieval/answer metrics.\n\u2022 The trace format that records each pipeline stage.\n30-DAY BUILD PLAN\nWeek 1 - ingestion, metadata, baseline chunking and \ndense retrieval.\nWeek 2 - keyword/hybrid retrieval, reranking, citations \nand source viewer.\nWeek 3 - benchmark creation, metrics, abstention and \nobservability.\nWeek 4 - complete UI/API, deployment, tests and final \nexperiment report.\nEVIDENCE YOU MUST SHOW\n\u2022 Create 40-60 questions: direct, paraphrased, multi-\ndocument, conflicting and unanswerable.\n\u2022 Measure Recall@K, MRR/nDCG, citation precision, \ncitation coverage and abstention quality.\n\u2022 Compare dense-only, keyword-only, hybrid and \nreranked configurations.\n\u2022 Record latency, tokens, model/index version, \nretrieved chunks and reranker scores.\n\u2022 Document at least 20 retrieval or generation failures \nand their causes.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; vector database of your choice; \noptional LangGraph/LangChain/LlamaIndex, but core \nreasoning must remain visible.\nHIGH BAR: PDF upload + fixed top-3 vector search + an LLM answer is only the starting baseline.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 9/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n09 AI AGENTS  /  CODEFORGE\nBuild your own repository-aware coding-agent harness - not a coding chatbot.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a local coding-agent runtime in the spirit of tools such as \nOpenCode and pi-agent. A user gives the agent a software task and a \nrepository. The agent must inspect the repository, plan changes, call safe \ntools, edit files, run tests, inspect the Git diff and decide whether the task \nis complete. The harness is the runtime around the model: its tools, \ncontext selection, state, safety, patching, verification, tracing and \nstopping rules. You may study existing open-source agents for ideas, but \nyour harness and orchestration must be your own.\nCORE REQUIREMENTS\n\u2022 Create a CLI or TUI that accepts a task and repository path.\n\u2022 Implement structured tools: list/search files, read ranges, create files, \napply patches, run tests, Git status/diff and restore.\n\u2022 Validate every tool call against a strict schema before execution.\n\u2022 Build a repository map and select relevant context instead of sending \nthe whole codebase.\n\u2022 Implement an explicit loop: inspect -> plan -> act -> observe -> verify \n-> stop/continue.\n\u2022 Use targeted patches, detect conflicts and support rollback.\n\u2022 Add step limits, retries, repeated-action/loop detection and resumable \nrun state.\n\u2022 Require tests, lint or another verification step before the agent can \ndeclare success.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The agent loop/state machine and stopping rules.\n\u2022 The tool runtime, permissions and safe command executor.\n\u2022 The context manager, repository map and token-budget logic.\n30-DAY BUILD PLAN\nWeek 1 - repository tools, schemas, safe execution \nand simple one-step edits.\nWeek 2 - planning loop, patching, context selection \nand Git/test integration.\nWeek 3 - recovery, loop detection, traces and the 15-\ntask benchmark.\nWeek 4 - CLI/TUI polish, comparisons, documentation \nand final agent demonstration.\nEVIDENCE YOU MUST SHOW\n\u2022 Sandbox commands with working-directory limits, \ntimeouts, output limits and environment protection.\n\u2022 Save a complete run trace: prompts, tools, results, \npatches, commands, tests, tokens and final diff.\n\u2022 Create at least 15 real tasks across two small \nrepositories: bugs, missing features, refactors and \ntests.\n\u2022 Measure completed tasks, passing tests, invalid tool \ncalls, steps, changed files, latency and tokens.\n\u2022 Compare two harness designs, such as no-plan vs \nplan or whole-repo context vs selected context.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; any LLM API/local model. \nExisting coding-agent frameworks cannot be used as \nthe core engine.\nHIGH BAR: A chat interface that prints code, or a wrapper around an existing coding agent, does not satisfy this task.\n\nAI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 10/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n10 AI EVALUATION  /  EVALFORGE\nBuild the platform that tells an AI team whether a change truly improved the system.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a framework-agnostic evaluation platform for prompts, models, \nRAG pipelines and agents. The platform should run versioned test \ndatasets, collect outputs, apply several kinds of checks, compare runs \nand produce a report that developers can trust. It must show individual \nfailures, not only one final score.\nCORE REQUIREMENTS\n\u2022 Define a versioned JSONL or database schema for test cases and \nexpected behaviour.\n\u2022 Create adapters so at least two different systems can be evaluated \nthrough one interface.\n\u2022 Support synchronous and asynchronous execution with controlled \nconcurrency.\n\u2022 Add exact/rule-based checks, semantic checks and task-specific \ncustom metrics.\n\u2022 Add an optional rubric-based LLM judge and pairwise A/B comparison.\n\u2022 Repeat selected tests to measure nondeterministic behaviour.\n\u2022 Track model/prompt/system version, latency, tokens, cost, errors and \nraw outputs.\n\u2022 Build a dashboard that compares runs, filters failures and replays \nselected cases.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The runner, adapter/plugin interface and result store.\n\u2022 The comparison/regression engine.\n\u2022 The report generator and failed-case replay flow.\n30-DAY BUILD PLAN\nWeek 1 - test schema, system adapter and basic \ndeterministic runner.\nWeek 2 - result store, metrics, concurrency and run \nversioning.\nWeek 3 - LLM judge, pairwise comparison, human \ncalibration and regression gates.\nWeek 4 - dashboard, replay, CI integration, \ndocumentation and final case study.\nEVIDENCE YOU MUST SHOW\n\u2022 Create at least 50 test cases and evaluate two \ngenuinely different systems.\n\u2022 Compare automated judge labels with a small \nhuman-labelled set.\n\u2022 Analyse judge disagreement, order bias and cases \nwhere the judge is unreliable.\n\u2022 Add configurable regression gates that can fail a CI \ncommand.\n\u2022 Demonstrate at least three real regressions \ndiscovered by the platform.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; database and frontend of your \nchoice; any model provider for optional judge-based \nscoring.\nHIGH BAR: A script that prints one average score is not an evaluation platform.",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 1/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n01 MACHINE LEARNING  /  SHIFTPROOF\nBuild a reliable decision system that knows when it may be wrong.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a complete machine-learning product that predicts whether an \noperational request will miss its service deadline. The input will be noisy \ntabular data with missing values, categorical fields, class imbalance and \nchanges over time. Your system must produce a prediction, a confidence \nscore and an \u201cuncertain - send for review\u201d result when confidence is too \nlow.\nCORE REQUIREMENTS\n\u2022 Create a repeatable data pipeline for cleaning, encoding and validating \nthe dataset.\n\u2022 Use a time-based train/validation/test split so future records never \nleak into training.\n\u2022 Build one simple baseline yourself, such as logistic regression or a \nsmall decision tree.\n\u2022 Compare the baseline with at least two stronger library models.\n\u2022 Handle missing values, class imbalance and badly formatted inputs.\n\u2022 Calibrate confidence scores so 80% confidence has a meaningful \ninterpretation.\n\u2022 Add an abstention threshold that routes uncertain cases to human \nreview.\n\u2022 Expose the model through a small API and a clean upload/dashboard \ninterface.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The baseline algorithm or its training loop.\n\u2022 The threshold/calibration logic and slice-wise evaluation runner.\n\u2022 The data-drift check that compares training data with new data.\n30-DAY BUILD PLAN\nWeek 1 - understand the data, audit leakage and build \nthe baseline.\nWeek 2 - add stronger models, preprocessing and a \nreproducible training pipeline.\nWeek 3 - calibration, abstention, drift tests and failure \nanalysis.\nWeek 4 - API, dashboard, documentation, tests and \nfinal comparison report.\nEVIDENCE YOU MUST SHOW\n\u2022 Report precision, recall, F1, PR-AUC and calibration - \nnot accuracy alone.\n\u2022 Show results separately for important categories, \ntime periods and rare cases.\n\u2022 Test the system after removing columns, adding \nmissing values and shifting class balance.\n\u2022 Include at least 20 analysed mistakes with likely \ncauses and possible fixes.\n\u2022 Compare the baseline and final system using exactly \nthe same test set.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, NumPy, pandas, scikit-learn, FastAPI, \nStreamlit/React. Equivalent tools are allowed.\nHIGH BAR: A notebook with one model and one accuracy score is not a finished submission.\nMACHINE LEARNING / SKILLLENS\nPredict placement readiness and explain the factors behind the result.\nBuild a machine-learning web app that estimates a student's placement\nreadiness from tabular data such as academics, skills, projects, coding\npractice and internships. The app should return a readiness score or category\nand clearly show the main factors behind the result.\nPrepare or curate a tabular dataset and define the prediction target clearly.\nBuild a repeatable cleaning and preprocessing pipeline for missing values,\ncategorical fields and numeric features.\nTrain a simple baseline such as logistic regression or a decision tree, then\ncompare it with at least one stronger model.\nUse a fixed train/validation/test split and check that target leakage is not\npresent.\nShow a readiness score or category together with feature importance or key\npositive and negative factors.\nSupport single-student input plus CSV upload for batch predictions.\nBuild a clean dashboard with summary cards, charts, filters and a small what-if\nview where changing inputs updates the prediction.\nThe preprocessing and feature-engineering pipeline.\nThe model-comparison and evaluation runner.\nThe explanation and what-if logic shown in the app.\nWeek 1 - define the dataset and target, clean the data\nand build the baseline. Week 2 - train stronger models,\ntune them and freeze the test set. Week 3 - add\nexplainability, CSV predictions, charts and failure\nanalysis. Week 4 - finish the web app, tests,\ndocumentation and demo.\nReport precision, recall, F1 and a confusion matrix; add\nROC-AUC when the task is binary.\nCompare at least two models on exactly the same test\nset.\nShow global feature importance and explanations for\nseveral individual predictions.\nTest missing values, unseen categories and noisy\ninputs without crashing.\nAnalyse at least 20 wrong or uncertain predictions and\nexplain likely causes.\nPython, pandas, scikit-learn, optional XGBoost/LightGBM,\nStreamlit or React.\nHIGH BAR: A notebook with one model and one accuracy score is not a finished SkillLens submission.",
+          "char_count": 5274,
+          "sections": []
+        },
+        {
+          "page_number": 2,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 2/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n02 DEEP LEARNING  /  MINIGRAD\nBuild the small deep-learning engine you wish you had learned from.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a miniature automatic-differentiation and neural-network library. \nInstead of calling model.fit() or loss.backward(), your code must \nconstruct a computation graph, calculate gradients and update \nparameters. Then use your engine to train real models and compare its \nbehaviour with PyTorch.\nCORE REQUIREMENTS\n\u2022 Create a Value or Tensor object that stores data, gradients and graph \nconnections.\n\u2022 Support addition, multiplication, matrix multiplication and at least four \nuseful operations.\n\u2022 Implement reverse-mode automatic differentiation and topological \nbackpropagation.\n\u2022 Add dense layers, ReLU or tanh, softmax/cross-entropy and parameter \nmanagement.\n\u2022 Implement SGD and one additional optimizer such as momentum or \nAdam.\n\u2022 Build training, validation, checkpoint save/load and deterministic seed \nsupport.\n\u2022 Train on XOR/two-moons first, then an MNIST or Fashion-MNIST \nsubset.\n\u2022 Create a small visual view of the graph, gradients, activations or loss \ncurve.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The computation graph and backward rules.\n\u2022 A finite-difference gradient checker.\n\u2022 The optimizer and training loop.\n30-DAY BUILD PLAN\nWeek 1 - scalar autograd, graph construction and \ngradient checking.\nWeek 2 - tensor operations, layers, losses and \noptimizers.\nWeek 3 - train real models and compare them with \nPyTorch.\nWeek 4 - visualizer, tests, documentation and failure \nreport.\nEVIDENCE YOU MUST SHOW\n\u2022 Check numerical gradients against your analytical \ngradients for every operation.\n\u2022 Compare outputs and gradients with an equivalent \nPyTorch model.\n\u2022 Show that the model can intentionally overfit one tiny \nbatch before full training.\n\u2022 Run experiments on learning rate, activation function \nand network depth.\n\u2022 Document exploding, vanishing or incorrect \ngradients you encountered.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython and NumPy are recommended. PyTorch may be \nused only for comparison, not as the core engine.\nHIGH BAR: Training a normal PyTorch model does not satisfy this task; the learning engine itself is the project.\nDEEP LEARNING / ECOSORT AI\nClassify waste images into dry, wet, recyclable and e-waste.\nBuild a deep-learning image-classification app that looks at a waste photo and\npredicts whether it is dry, wet, recyclable or e-waste. Use transfer learning,\ncompare model choices, show confidence, and create an interface that works\nwith uploaded images and, where possible, a webcam.\nCollect or prepare a labelled image dataset for dry, wet, recyclable and\ne-waste, and document where the images came from.\nCreate separate train, validation and test splits without duplicate-image\nleakage.\nTrain a baseline model and at least one transfer-learning model; compare two\nmodel choices fairly.\nUse useful augmentation such as crop, flip, rotation or brightness changes and\nmeasure whether it helps.\nTrack training/validation loss and accuracy, save the best checkpoint and make\nruns reproducible.\nReturn the predicted class, confidence score and top alternatives for every\nimage.\nAdd an image upload or webcam demo plus a simple Grad-CAM heatmap that\nhighlights what influenced the prediction.\nThe dataset preparation, split and augmentation pipeline.\nThe training/experiment loop and model-comparison report.\nThe error-analysis and visual-explanation flow.\nWeek 1 - prepare the dataset, splits and a working\nbaseline. Week 2 - train transfer-learning models and run\naugmentation experiments. Week 3 - compare models,\ninspect confusion cases and add Grad-CAM. Week 4 -\nbuild the upload/webcam app, tests, documentation and\ndemo.\nReport per-class precision, recall, F1 and a confusion\nmatrix - not accuracy alone.\nCompare two model choices on the same frozen test\nset.\nTest real phone photos with different lighting,\nbackgrounds, angles and partially visible objects.\nShow at least 20 misclassified images and explain the\nlikely reason for each failure type.\nShow the effect of augmentation and report practical\ninference speed for the final model.\nPython, PyTorch or TensorFlow, OpenCV,\ntorchvision/timm, Streamlit or Gradio.\nHIGH BAR: Using one pretrained model without training, comparison and error analysis is not a complete EcoSort AI project.",
+          "char_count": 5177,
+          "sections": []
+        },
+        {
+          "page_number": 3,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 3/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n03 COMPUTER VISION  /  TRACKFORGE\nDetecting an object is easy. Keeping its identity is the real challenge.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a real-time video system that detects, tracks and uniquely counts \nobjects across frames. You may use a pretrained detector, but the \ntracking, object lifecycle and event logic must be your own. The final \napplication should work on uploaded videos and, where possible, a live \ncamera.\nCORE REQUIREMENTS\n\u2022 Run object detection and convert detections into a clean internal \nformat.\n\u2022 Implement a baseline tracker using centroid distance or IoU matching.\n\u2022 Improve association using Hungarian matching and optional motion \nprediction.\n\u2022 Maintain stable track IDs and handle new, missing, lost and recovered \ntracks.\n\u2022 Support line crossing, entry/exit, polygon zones, dwell time and \ndirection.\n\u2022 Prevent double counting when an object pauses, disappears or re-\nenters.\n\u2022 Store event history with timestamps, class, track ID and confidence.\n\u2022 Build a UI that shows video, tracks, paths, zones, counts and live FPS.\nWHAT MUST BE YOUR OWN WORK\n\u2022 Detection-to-track association.\n\u2022 Track lifecycle and occlusion handling.\n\u2022 Zone, crossing and unique-count event logic.\n30-DAY BUILD PLAN\nWeek 1 - detector pipeline, annotation format and \nbaseline tracker.\nWeek 2 - robust association, track lifecycle and event \nengine.\nWeek 3 - ground-truth videos, metrics and difficult-\ncase testing.\nWeek 4 - interface, logging, optimisation, \ndocumentation and final demo.\nEVIDENCE YOU MUST SHOW\n\u2022 Manually annotate at least three short videos as \nground truth.\n\u2022 Measure counting error, duplicate counts, missed \ncrossings, ID switches and FPS.\n\u2022 Test crowded scenes, temporary occlusion, low light \nand objects leaving/re-entering.\n\u2022 Compare at least two association strategies on the \nsame videos.\n\u2022 Show failure clips and explain why the tracker broke.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, OpenCV, NumPy, Ultralytics/PyTorch, \nStreamlit/Gradio/React. The tracker cannot be a one-\nline library call.\nHIGH BAR: Drawing detector boxes and incrementing a counter once per frame is not object tracking.",
+          "char_count": 3001,
+          "sections": []
+        },
+        {
+          "page_number": 4,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 4/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n04 NATURAL LANGUAGE PROCESSING  /  CLARITYROUTE\nTurn messy human messages into useful, reviewable decisions.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a support-message intelligence system that predicts intent, \nurgency and important entities. Real messages may contain spelling \nerrors, several intents, short context or completely unknown topics. Your \nsystem must recognise uncertainty instead of forcing every message into \na known class.\nCORE REQUIREMENTS\n\u2022 Create an annotation guide and curate a clean labelled dataset with \nseveral intents.\n\u2022 Build a TF-IDF plus linear-model baseline before using a transformer.\n\u2022 Support multi-label intent classification when one message has \nmultiple requests.\n\u2022 Extract useful entities such as product, department, date, location or \npriority.\n\u2022 Fine-tune or adapt a compact transformer and compare it with the \nbaseline.\n\u2022 Calibrate confidence and add an unknown-topic/abstention decision.\n\u2022 Expose a /predict API that returns labels, entities, confidence and \nwarnings.\n\u2022 Build a review screen where uncertain or wrong predictions can be \ncorrected.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The data/annotation schema and validation pipeline.\n\u2022 Multi-label threshold selection and abstention logic.\n\u2022 The unified evaluator for labels, entities and confidence.\n30-DAY BUILD PLAN\nWeek 1 - annotation guide, data cleaning and TF-IDF \nbaseline.\nWeek 2 - transformer, multi-label support and entity \nextraction.\nWeek 3 - confidence, unknown-topic detection and \nadversarial tests.\nWeek 4 - API, review UI, documentation and full \ncomparison report.\nEVIDENCE YOU MUST SHOW\n\u2022 Report macro-F1, micro-F1, per-class recall, entity F1 \nand calibration.\n\u2022 Create stress tests for spelling mistakes, \nparaphrases, mixed intents and unrelated text.\n\u2022 Analyse at least 30 errors and group them into \nmeaningful failure types.\n\u2022 Compare the baseline and transformer on the same \nfrozen test set.\n\u2022 Show how corrections could be collected for future \nretraining.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, scikit-learn, Hugging Face Transformers, \nFastAPI and any suitable frontend.\nHIGH BAR: A two-label sentiment model with one /predict endpoint is below the required scope.",
+          "char_count": 3058,
+          "sections": []
+        },
+        {
+          "page_number": 5,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 5/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n05 REINFORCEMENT LEARNING  /  QUEUECRAFT\nBuild the world, the baselines and the agent - then prove the agent helps.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a scheduling simulation in which jobs arrive with different durations, \npriorities and deadlines. An agent must decide which job should run on \nwhich limited resource. The project is as much about environment and \nreward design as it is about the learning algorithm.\nCORE REQUIREMENTS\n\u2022 Define state, action, transition and reward clearly before coding.\n\u2022 Build a custom environment with reset(), step(), observations and \nepisode termination.\n\u2022 Simulate random arrivals, machine capacity, deadlines and temporary \nfailures.\n\u2022 Implement at least two heuristic baselines such as FIFO and shortest-\njob-first.\n\u2022 Implement tabular Q-learning yourself and explain every update term.\n\u2022 Create low-, medium- and high-load workload generators.\n\u2022 Build a visual replay showing queues, machines, decisions and reward \ncomponents.\n\u2022 Add DQN/PPO only as an extension after the basic system is correct.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The environment and transition logic.\n\u2022 The reward function and Q-learning implementation.\n\u2022 The multi-seed experiment runner.\n30-DAY BUILD PLAN\nWeek 1 - formal problem design, simulator and \nheuristic baselines.\nWeek 2 - Q-learning, training loop and visual episode \nreplay.\nWeek 3 - reward ablations, unseen workloads and \nmulti-seed experiments.\nWeek 4 - interface, documentation, tests and final \npolicy comparison.\nEVIDENCE YOU MUST SHOW\n\u2022 Compare the learned policy against all heuristics on \nunseen workloads.\n\u2022 Measure waiting time, missed deadlines, throughput, \nutilisation and fairness.\n\u2022 Run multiple random seeds and report mean plus \nvariation.\n\u2022 Perform at least three reward-design experiments.\n\u2022 Find and document any reward-hacking or unstable \nbehaviour.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, NumPy, Gymnasium-compatible interfaces and \nMatplotlib/Streamlit for visualisation.\nHIGH BAR: Running a ready-made PPO agent on CartPole does not satisfy this project.",
+          "char_count": 2925,
+          "sections": []
+        },
+        {
+          "page_number": 6,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 6/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n06 GENERATIVE AI  /  PROMPTOPS\nBuild a controlled generation platform, not a single prompt demo.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a provider-agnostic platform that converts messy instructions into \nreliable structured outputs. For example, an event brief could become a \nschedule, announcement, task list and content pack. The system must \nvalidate its output, survive model failures and make prompt/model \nchanges measurable.\nCORE REQUIREMENTS\n\u2022 Create one common model interface and support at least two \nbackends or one real plus one mock backend.\n\u2022 Support streaming text and structured JSON output.\n\u2022 Create a versioned prompt registry with variables, metadata and \nchange history.\n\u2022 Validate every structured response against a JSON schema.\n\u2022 Add repair, retry, timeout, fallback and clear error handling.\n\u2022 Add caching and track tokens, latency and estimated cost per run.\n\u2022 Implement a simple routing rule based on task type, quality, speed or \ncost.\n\u2022 Build an experiment UI to compare prompt and model versions side by \nside.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The provider adapter interface and routing layer.\n\u2022 The prompt/version registry and schema-validation pipeline.\n\u2022 The repeatable prompt regression runner.\n30-DAY BUILD PLAN\nWeek 1 - use case, schemas, model adapter and \ndeterministic mock backend.\nWeek 2 - prompt registry, structured generation and \nvalidation/repair.\nWeek 3 - test suite, routing, caching, retries and \ntelemetry.\nWeek 4 - experiment UI, deployment, documentation \nand comparison report.\nEVIDENCE YOU MUST SHOW\n\u2022 Create at least 50 fixed test cases with expected \nproperties.\n\u2022 Report schema-validity rate, instruction-following \nrate, latency, tokens and failures.\n\u2022 Compare at least two prompt versions and two \nmodel configurations.\n\u2022 Test malformed JSON, contradictory instructions, \ntimeouts and interrupted streaming.\n\u2022 Show examples where a cheaper/faster model is \nenough and where it is not.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; any model provider or local \nmodel; FastAPI/Node and any frontend.\nHIGH BAR: A form that sends one prompt to one API and prints the response is not PromptOps.",
+          "char_count": 3022,
+          "sections": []
+        },
+        {
+          "page_number": 7,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 7/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n07 LARGE LANGUAGE MODELS  /  TUNEFORGE\nFine-tune an open model and prove that the tuned model is actually better.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nChoose one narrow, useful task and fine-tune a small open-source \nlanguage model for it. Possible tasks include structured extraction, code \nexplanation, tool-call generation, technical Q&A or support response \ndrafting. The project must cover data creation, training, evaluation, \nserving and honest comparison with the original model.\nCORE REQUIREMENTS\n\u2022 Choose a suitable open model, normally between 0.5B and 3B \nparameters.\n\u2022 Define a clear instruction/input/output format for the chosen task.\n\u2022 Create, clean, deduplicate and version a high-quality training dataset.\n\u2022 Split train, validation and test data by source to reduce leakage.\n\u2022 Benchmark the untouched base model before training.\n\u2022 Fine-tune with LoRA or QLoRA, which trains small adapter weights \ninstead of every model weight.\n\u2022 Track training/validation loss, learning rate, gradient norm, memory \nuse and speed.\n\u2022 Serve the final model through an API and a simple comparison \ninterface.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The dataset preparation and validation pipeline.\n\u2022 The experiment/configuration runner for repeatable training.\n\u2022 The base-versus-tuned evaluation and report generator.\n30-DAY BUILD PLAN\nWeek 1 - task design, dataset schema, cleaning and \nbase-model benchmark.\nWeek 2 - first LoRA/QLoRA run and complete training \npipeline.\nWeek 3 - ablations, error analysis and base-versus-\ntuned evaluation.\nWeek 4 - inference API, comparison UI, model card \nand reproducible release.\nEVIDENCE YOU MUST SHOW\n\u2022 Evaluate the base and tuned model on the same \nfrozen test set.\n\u2022 Run at least two ablations: data size, epochs, \nlearning rate, LoRA rank or prompt format.\n\u2022 Measure task correctness, format validity, latency, \nmemory and failure rate.\n\u2022 Check whether the tuned model became worse on \nunrelated general prompts.\n\u2022 Publish a model card describing data, limitations, \nrisks and intended use.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython, Hugging Face Transformers, PEFT, \nTRL/Axolotl/Unsloth or equivalent. Use hardware that is \navailable to you.\nHIGH BAR: One fine-tuning run plus a few cherry-picked examples is not evidence of improvement.",
+          "char_count": 3133,
+          "sections": []
+        },
+        {
+          "page_number": 8,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 8/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n08 RETRIEVAL-AUGMENTED GENERATION  /  EVIDENCEBENCH\nBuild a knowledge system that retrieves evidence, cites it and knows when to abstain.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a full-stack research workspace that ingests documents and \nanswers questions using verifiable evidence. The difficult part is not the \nchat box; it is parsing, chunking, retrieval, reranking, citation quality, \nabstention, evaluation and observability. Python, TypeScript or another \nsuitable stack is allowed.\nCORE REQUIREMENTS\n\u2022 Ingest PDFs, text and Markdown while preserving document, page and \nsection metadata.\n\u2022 Detect duplicate or updated documents and keep index versions.\n\u2022 Implement and compare at least two chunking strategies.\n\u2022 Implement keyword retrieval and dense vector retrieval.\n\u2022 Combine them with a documented hybrid fusion method.\n\u2022 Retrieve a wider candidate set, rerank it and expose scores in a debug \nview.\n\u2022 Generate answers with passage-level citations and clickable source \npreviews.\n\u2022 Refuse to answer when the available evidence is weak, missing or \nconflicting.\nWHAT MUST BE YOUR OWN WORK\n\u2022 One important component such as hybrid fusion, citation alignment or \nchunking.\n\u2022 The question-dataset runner and retrieval/answer metrics.\n\u2022 The trace format that records each pipeline stage.\n30-DAY BUILD PLAN\nWeek 1 - ingestion, metadata, baseline chunking and \ndense retrieval.\nWeek 2 - keyword/hybrid retrieval, reranking, citations \nand source viewer.\nWeek 3 - benchmark creation, metrics, abstention and \nobservability.\nWeek 4 - complete UI/API, deployment, tests and final \nexperiment report.\nEVIDENCE YOU MUST SHOW\n\u2022 Create 40-60 questions: direct, paraphrased, multi-\ndocument, conflicting and unanswerable.\n\u2022 Measure Recall@K, MRR/nDCG, citation precision, \ncitation coverage and abstention quality.\n\u2022 Compare dense-only, keyword-only, hybrid and \nreranked configurations.\n\u2022 Record latency, tokens, model/index version, \nretrieved chunks and reranker scores.\n\u2022 Document at least 20 retrieval or generation failures \nand their causes.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; vector database of your choice; \noptional LangGraph/LangChain/LlamaIndex, but core \nreasoning must remain visible.\nHIGH BAR: PDF upload + fixed top-3 vector search + an LLM answer is only the starting baseline.",
+          "char_count": 3178,
+          "sections": []
+        },
+        {
+          "page_number": 9,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 9/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n09 AI AGENTS  /  CODEFORGE\nBuild your own repository-aware coding-agent harness - not a coding chatbot.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a local coding-agent runtime in the spirit of tools such as \nOpenCode and pi-agent. A user gives the agent a software task and a \nrepository. The agent must inspect the repository, plan changes, call safe \ntools, edit files, run tests, inspect the Git diff and decide whether the task \nis complete. The harness is the runtime around the model: its tools, \ncontext selection, state, safety, patching, verification, tracing and \nstopping rules. You may study existing open-source agents for ideas, but \nyour harness and orchestration must be your own.\nCORE REQUIREMENTS\n\u2022 Create a CLI or TUI that accepts a task and repository path.\n\u2022 Implement structured tools: list/search files, read ranges, create files, \napply patches, run tests, Git status/diff and restore.\n\u2022 Validate every tool call against a strict schema before execution.\n\u2022 Build a repository map and select relevant context instead of sending \nthe whole codebase.\n\u2022 Implement an explicit loop: inspect -> plan -> act -> observe -> verify \n-> stop/continue.\n\u2022 Use targeted patches, detect conflicts and support rollback.\n\u2022 Add step limits, retries, repeated-action/loop detection and resumable \nrun state.\n\u2022 Require tests, lint or another verification step before the agent can \ndeclare success.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The agent loop/state machine and stopping rules.\n\u2022 The tool runtime, permissions and safe command executor.\n\u2022 The context manager, repository map and token-budget logic.\n30-DAY BUILD PLAN\nWeek 1 - repository tools, schemas, safe execution \nand simple one-step edits.\nWeek 2 - planning loop, patching, context selection \nand Git/test integration.\nWeek 3 - recovery, loop detection, traces and the 15-\ntask benchmark.\nWeek 4 - CLI/TUI polish, comparisons, documentation \nand final agent demonstration.\nEVIDENCE YOU MUST SHOW\n\u2022 Sandbox commands with working-directory limits, \ntimeouts, output limits and environment protection.\n\u2022 Save a complete run trace: prompts, tools, results, \npatches, commands, tests, tokens and final diff.\n\u2022 Create at least 15 real tasks across two small \nrepositories: bugs, missing features, refactors and \ntests.\n\u2022 Measure completed tasks, passing tests, invalid tool \ncalls, steps, changed files, latency and tokens.\n\u2022 Compare two harness designs, such as no-plan vs \nplan or whole-repo context vs selected context.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; any LLM API/local model. \nExisting coding-agent frameworks cannot be used as \nthe core engine.\nHIGH BAR: A chat interface that prints code, or a wrapper around an existing coding agent, does not satisfy this task.",
+          "char_count": 3608,
+          "sections": []
+        },
+        {
+          "page_number": 10,
+          "text": "AI CLUB NIT ROURKELA  \u2022  30 DAYS  \u2022  INDIVIDUAL PROJECT  \u2022  STACK-AGNOSTIC  \u2022  PAGE 10/10\nAI CLUB  |  NIT ROURKELA\nAI TRACK INDUCTION 2026\nONE-MONTH PROJECT BRIEF  \u2022  CHOOSE ONE TRACK\n10 PROJECT OPTIONS:  ML  |  DL  |  CV  |  NLP  |  RL  |  GENAI  |  LLM FINE-TUNING  |  RAG  |  CODING AGENT  |  AI EVALS\n10 AI EVALUATION  /  EVALFORGE\nBuild the platform that tells an AI team whether a change truly improved the system.\nONE-MONTH CHALLENGE: Choose exactly one of the ten projects. You have 30 days to build a working system, document your decisions \nand show evidence that it works. AI tools are allowed, but you must understand and be able to explain everything you submit.\nWHAT YOU WILL BUILD\nBuild a framework-agnostic evaluation platform for prompts, models, \nRAG pipelines and agents. The platform should run versioned test \ndatasets, collect outputs, apply several kinds of checks, compare runs \nand produce a report that developers can trust. It must show individual \nfailures, not only one final score.\nCORE REQUIREMENTS\n\u2022 Define a versioned JSONL or database schema for test cases and \nexpected behaviour.\n\u2022 Create adapters so at least two different systems can be evaluated \nthrough one interface.\n\u2022 Support synchronous and asynchronous execution with controlled \nconcurrency.\n\u2022 Add exact/rule-based checks, semantic checks and task-specific \ncustom metrics.\n\u2022 Add an optional rubric-based LLM judge and pairwise A/B comparison.\n\u2022 Repeat selected tests to measure nondeterministic behaviour.\n\u2022 Track model/prompt/system version, latency, tokens, cost, errors and \nraw outputs.\n\u2022 Build a dashboard that compares runs, filters failures and replays \nselected cases.\nWHAT MUST BE YOUR OWN WORK\n\u2022 The runner, adapter/plugin interface and result store.\n\u2022 The comparison/regression engine.\n\u2022 The report generator and failed-case replay flow.\n30-DAY BUILD PLAN\nWeek 1 - test schema, system adapter and basic \ndeterministic runner.\nWeek 2 - result store, metrics, concurrency and run \nversioning.\nWeek 3 - LLM judge, pairwise comparison, human \ncalibration and regression gates.\nWeek 4 - dashboard, replay, CI integration, \ndocumentation and final case study.\nEVIDENCE YOU MUST SHOW\n\u2022 Create at least 50 test cases and evaluate two \ngenuinely different systems.\n\u2022 Compare automated judge labels with a small \nhuman-labelled set.\n\u2022 Analyse judge disagreement, order bias and cases \nwhere the judge is unreliable.\n\u2022 Add configurable regression gates that can fail a CI \ncommand.\n\u2022 Demonstrate at least three real regressions \ndiscovered by the platform.\nFINAL SUBMISSION PACKAGE\n\u2022 Working repository with meaningful commit history.\n\u2022 README with exact setup and run commands.\n\u2022 Architecture diagram and important design \ndecisions.\n\u2022 Automated tests plus a written failure log.\n\u2022 5-8 minute demo video and a concise final report.\n\u2022 AI_USAGE.md describing how AI tools were used \nand verified.\nSUGGESTED TOOLS\nPython or TypeScript; database and frontend of your \nchoice; any model provider for optional judge-based \nscoring.\nHIGH BAR: A script that prints one average score is not an evaluation platform.",
+          "char_count": 3103,
+          "sections": []
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_p1_0",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 114,
+          "end_char": 660,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_1",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 660,
+          "end_char": 1051,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_2",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 1051,
+          "end_char": 1715,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_3",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 1715,
+          "end_char": 2238,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_4",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 2238,
+          "end_char": 2668,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_5",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 2668,
+          "end_char": 3007,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p1_6",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 3007,
+          "end_char": 5390,
+          "page_number": 1
+        },
+        {
+          "section_id": "sec_p2_7",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 5390,
+          "end_char": 5933,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_8",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 5933,
+          "end_char": 6251,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_9",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 6251,
+          "end_char": 6929,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_10",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 6929,
+          "end_char": 7344,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_11",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 7344,
+          "end_char": 7753,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_12",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 7753,
+          "end_char": 8092,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p2_13",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 8092,
+          "end_char": 10569,
+          "page_number": 2
+        },
+        {
+          "section_id": "sec_p3_14",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 10569,
+          "end_char": 11121,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_15",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 11121,
+          "end_char": 11433,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_16",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 11433,
+          "end_char": 12060,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_17",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 12060,
+          "end_char": 12502,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_18",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 12502,
+          "end_char": 12886,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_19",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 12886,
+          "end_char": 13225,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p3_20",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 13225,
+          "end_char": 13572,
+          "page_number": 3
+        },
+        {
+          "section_id": "sec_p4_21",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 13572,
+          "end_char": 14126,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p4_22",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 14126,
+          "end_char": 14444,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p4_23",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 14444,
+          "end_char": 15099,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p4_24",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 15099,
+          "end_char": 15581,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p4_25",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 15581,
+          "end_char": 15983,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p4_26",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 15983,
+          "end_char": 16322,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p4_27",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 16322,
+          "end_char": 16632,
+          "page_number": 4
+        },
+        {
+          "section_id": "sec_p5_28",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 16632,
+          "end_char": 17193,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p5_29",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 17193,
+          "end_char": 17486,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p5_30",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 17486,
+          "end_char": 18110,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p5_31",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 18110,
+          "end_char": 18559,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p5_32",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 18559,
+          "end_char": 18913,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p5_33",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 18913,
+          "end_char": 19252,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p5_34",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 19252,
+          "end_char": 19559,
+          "page_number": 5
+        },
+        {
+          "section_id": "sec_p6_35",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 19559,
+          "end_char": 20101,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p6_36",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 20101,
+          "end_char": 20424,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p6_37",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 20424,
+          "end_char": 21033,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p6_38",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 21033,
+          "end_char": 21519,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p6_39",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 21519,
+          "end_char": 21932,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p6_40",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 21932,
+          "end_char": 22271,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p6_41",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 22271,
+          "end_char": 22583,
+          "page_number": 6
+        },
+        {
+          "section_id": "sec_p7_42",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 22583,
+          "end_char": 23142,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p7_43",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 23142,
+          "end_char": 23499,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p7_44",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 23499,
+          "end_char": 24119,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p7_45",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 24119,
+          "end_char": 24619,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p7_46",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 24619,
+          "end_char": 25035,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p7_47",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 25035,
+          "end_char": 25374,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p7_48",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 25374,
+          "end_char": 25718,
+          "page_number": 7
+        },
+        {
+          "section_id": "sec_p8_49",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 25718,
+          "end_char": 26301,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p8_50",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 26301,
+          "end_char": 26639,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p8_51",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 26639,
+          "end_char": 27222,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p8_52",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 27222,
+          "end_char": 27751,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p8_53",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 27751,
+          "end_char": 28195,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p8_54",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 28195,
+          "end_char": 28534,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p8_55",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 28534,
+          "end_char": 28898,
+          "page_number": 8
+        },
+        {
+          "section_id": "sec_p9_56",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 28898,
+          "end_char": 29447,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p9_57",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 29447,
+          "end_char": 30023,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p9_58",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 30023,
+          "end_char": 30729,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p9_59",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 30729,
+          "end_char": 31258,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p9_60",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 31258,
+          "end_char": 31802,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p9_61",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 31802,
+          "end_char": 32141,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p9_62",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 32141,
+          "end_char": 32509,
+          "page_number": 9
+        },
+        {
+          "section_id": "sec_p10_63",
+          "title": "AI TRACK INDUCTION 2026",
+          "level": 1,
+          "hierarchy_path": [
+            "AI TRACK INDUCTION 2026"
+          ],
+          "start_char": 32509,
+          "end_char": 33070,
+          "page_number": 10
+        },
+        {
+          "section_id": "sec_p10_64",
+          "title": "WHAT YOU WILL BUILD",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT YOU WILL BUILD"
+          ],
+          "start_char": 33070,
+          "end_char": 33406,
+          "page_number": 10
+        },
+        {
+          "section_id": "sec_p10_65",
+          "title": "CORE REQUIREMENTS",
+          "level": 1,
+          "hierarchy_path": [
+            "CORE REQUIREMENTS"
+          ],
+          "start_char": 33406,
+          "end_char": 34068,
+          "page_number": 10
+        },
+        {
+          "section_id": "sec_p10_66",
+          "title": "WHAT MUST BE YOUR OWN WORK",
+          "level": 1,
+          "hierarchy_path": [
+            "WHAT MUST BE YOUR OWN WORK"
+          ],
+          "start_char": 34068,
+          "end_char": 34556,
+          "page_number": 10
+        },
+        {
+          "section_id": "sec_p10_67",
+          "title": "EVIDENCE YOU MUST SHOW",
+          "level": 1,
+          "hierarchy_path": [
+            "EVIDENCE YOU MUST SHOW"
+          ],
+          "start_char": 34556,
+          "end_char": 34948,
+          "page_number": 10
+        },
+        {
+          "section_id": "sec_p10_68",
+          "title": "FINAL SUBMISSION PACKAGE",
+          "level": 1,
+          "hierarchy_path": [
+            "FINAL SUBMISSION PACKAGE"
+          ],
+          "start_char": 34948,
+          "end_char": 35287,
+          "page_number": 10
+        },
+        {
+          "section_id": "sec_p10_69",
+          "title": "SUGGESTED TOOLS",
+          "level": 1,
+          "hierarchy_path": [
+            "SUGGESTED TOOLS"
+          ],
+          "start_char": 35287,
+          "end_char": 35497,
+          "page_number": 10
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "doc_id": "3172b92c-413f-48fd-a912-93d4d5f5d996",
+        "filename": "psychology_study_notes.pdf",
+        "file_type": "pdf",
+        "content_hash": "2094efaac0bac4a04c12c40cd3aaa75b75f30d247185eae03d36a8fb4c925eda",
+        "version": 1,
+        "index_version": "v1.0",
+        "created_at": "2026-09-29T06:00:38.627873+00:00",
+        "total_pages": 12,
+        "total_sections": 1,
+        "total_characters": 14004,
+        "custom_metadata": {}
+      },
+      "raw_text": "Scope \u2022 Methods \u2022 Perception \u2022 Psychophysics \u2014 Exam Revision\n Scope of Psychology\n\u25b8  What is Psychology?\nP sychology = scientific study of behaviour & mental processes\nGoal \u2192  describe \u2192 explain \u2192 predict \u2192 influence how people think, feel, act\nNot just clinics/labs \u2014 applies to almost every field of human life\n\u25b8  Two Broad Divisions (Morgan & King)\n\ud83e\uddea  Theoretical (Pure)\nPsychology\nBuilds core knowledge through\nresearch\nUnderstanding behaviour for its own\nsake\ne.g. Experimental, Physiological,\nPersonality, Abnormal, Social,\nDevelopmental Psych.\n\ud83d\udee0  Applied Psychology\nPuts principles to work on real\nproblems\nServes people directly (clinics,\nschools, courts, workplace)\ne.g. Clinical, Counseling, Educational,\nIndustrial, Health, Forensic\n\ud83d\udcd8  Psychology Notes\nCh. 1\n\n\u25b8  Branches \u2014 Theoretical\nBranch Focus\nExperimental Lab study of learning, memory, perception, motivation\nPhysiological Brain, nervous system, hormones behind behaviour\nDevelopmental Growth & change across the whole lifespan\nSocial Thought/feeling/behaviour in presence of others\nPersonality Individual differences \u2014 traits, temperament\nAbnormal Types, symptoms, causes of psychopathology\n\u25b8  Branches \u2014 Applied\nBranch Focus\nClinical Assessment, diagnosis, treatment of disorders\nCounseling Everyday personal/educational/career concerns\nEducational Teaching, learning, classrooms\nIndustrial/Org. Employer-employee relations, selection, leadership\nHealth Psychological factors in illness & wellness\nEnvironmental Physical surroundings \u2192  behaviour/wellbeing\nForensic/Legal Law, criminal behaviour, justice system\nSports Mental/emotional factors in athletic performance\nMilitary Selection, training, morale of armed forces\nConsumer Buying behaviour, decision-making\nCommunity Wellbeing of communities/social systems\n Methods of Psychology\nHow psychologists actually study mind & behaviour \u2192  6 core methods:\n\u270f  Sum  up: Psychology's scope runs from the neuron to the classroom, clinic, courtroom &workplace \u2014 one of the most far-reaching behavioural sciences! (Morgan & King)\nCh. 2\n\nExperimental \u2192 Correlational \u2192 Case Study \u2192 Naturalistic Obs. \u2192\nSurvey/Interview \u2192 Longitudinal/Cross-sectional\n\u25b8  \udbba\udc2e  Experimental Method\nManipulate Independent Variable (IV), keep rest constant, measure effect on Dependent\nVariable (DV). Random assignment \u2192  allows cause\u2013effect claims.\n+ Only method to prove causation; high control; replicable\n\u2013 Artificial (low real-world validity); ethical limits; reactivity (observer effect)\nClassic study: Milgram's Obedience (1963) \u2014 ~65% gave max 450V shock under authority\npressure.\n\u25b8  \udbba\udc2f  Correlational Method\nMeasures 2+ variables as they naturally occur; computes correlation coefficient r. Nothing\nmanipulated \u2192  correlation \u2260 causation.\n+ Studies variables that can't be manipulated; real-world data; predicts trends\n\u2013 Can't prove causation; third-variable problem; direction unclear\nClassic study: Doll & Hill \u2014 smoking & lung cancer link (1950s), found via correlation not\nexperiment.\n\u25b8  \udbba\udc30  Case Study Method\nIn-depth study of one person/group/event \u2014 interviews, records, observation.\n+ Rich detail; studies rare phenomena; generates hypotheses\n\u2013 Doesn't generalize; researcher bias; no cause-effect\nClassic study: Phineas Gage (1848) \u2014 rod through frontal lobe \u2192  personality change \u2192\nlinked brain regions to personality.\n\u25b8  \udbba\udc31  Naturalistic Observation\nWatch & record behaviour in its real/natural setting \u2014 no interference.\n+ High ecological validity; good for exploratory research\n\n\u2013 No control over variables; observer presence may alter behaviour; no cause-effect\nClassic study: Jane Goodall's chimpanzees (Gombe, 1960s) \u2014 documented tool use, social\nbonds.\n\u25b8  \udbba\udc32  Survey & Interview Method\nSelf-reported data from a sample \u2192  generalize to a population.\n+ Large samples fast; inexpensive; good for attitudes/beliefs\n\u2013 Social desirability bias; depends on honest recall; low response rate skews sample\n\u25b8  \udbba\udc33  Longitudinal vs Cross-Sectional\nLongitudinal Cross-Sectional\nDesign Same participants, over years Different age groups, one time point\n+ Tracks real change, no cohort effect Fast, cheap, no attrition\n\u2013 Costly, slow, attrition Cohort effects mistaken for age effects\nClassic study: Harvard Study of Adult Dev. (1938\u2013present) \u2014 warm relationships predict\nhealth/happiness more than wealth. Also: Piaget's cognitive-dev theory (from observing his\nown children).\n\u25b8  Ethics in Research\nInformed Consent \u2192  Right to Withdraw \u2192  Debriefing \u2192  Confidentiality \u2192\nP rotection from Harm\nCautionary case: Stanford Prison Experiment (Zimbardo, 1971) \u2014 guards turned abusive,\nstudy stopped after 6 days \u2192  led to modern ethics boards.\n\n\ud83d\udccb  Methods at a Glance\nMethod Key Strength Key Limitation\nExperimental Cause & effect Artificial, ethical limits\nCorrelational Studies unmanipulable vars No causation\nCase Study Rich detail, rare cases No generalization\nNaturalistic Obs. Genuine real-world behaviour No variable control\nSurvey/Interview Large, efficient samples Self-report bias\nLongitudinal/Cross-sec. Change over time / fast Costly-slow / cohort effects\n Perception in Psychology\n\u25b8  Sensation vs Perception\nSensation\nRaw detection of stimuli by sense organs\n(eyes, ears, skin) \u2192  sent to brain\nPerception\nBrain selects, organizes, interprets\nsensory data \u2192  meaningful experience\nKey qualities of perception: Selective \u00b7 Subjective \u00b7 Constructive \u00b7 M eaningful\n\u25b8  Process of Perception\nStimulus \u2192 Sense Organs \u2192 Neural Transmission \u2192\nBrain: Organization \u2192 Perceptual Experience\n\ud83d\udc41  Attention = gatekeeper \u2014 only some stimuli get full processing, rest filtered out.\n\u270f  Only experim ents give cause-and-effect. Best method depends on the question: depth (casestudy) vs breadth (survey) vs realism (naturalistic).\nCh. 3\n\"Sensation is data; Perception is meaning.\"\n\n\u25b8  Attention \u2014 What Grabs It?\nStimulus (External) Factors\nIntensity & size\nContrast\nMovement\nNovelty & repetition\nPersonal (Internal) Factors\nMotivation & needs\nInterests & values\nPast experience\nExpectation (perceptual set)\n\u25b8  Bottom-Up vs Top-Down Processing\nBottom-Up Top-Down\nType Data-driven Concept-driven\nKey\nname\nJ. J. Gibson Richard Gregory\nIdea Small features \u2192  combined into\nwhole percept (part \u2192 whole)\nPrior knowledge/context \u2192  hypothesis \u2192\nchecked against data (whole guides part)\n\u25b8  Five Domains of Perception\n1. Perceptual Organization (Gestalt laws, figure-ground)\n2. Depth Perception (monocular + binocular cues)\n3. Perceptual Constancy (size, shape, colour, brightness)\n4. Perceptual Illusions (geometrical, physiological, cognitive)\n5. Influencing Factors (personal & stimulus)\n\u25b8  Gestalt Psychology\nFounders: Wertheimer, K\u00f6hler, Koffka \u2014 mind organizes bits into unified wholes (Gestalten).\n\"The whole is different from the sum of its\nparts.\"\n\nLaw Meaning\nProximity Close elements seen as one group\nSimilarity Alike elements (colour/shape) grouped together\nClosure Mind fills gaps \u2192  sees complete shape\nContinuity Elements in a line/curve seen as continuing smoothly\nFigure-Ground Scene split into focused \"figure\" + background \"ground\"\nMnemonic: P-S-C-C-F \u2014 \"Please Sort Circles Carefully, Friend\"\n\u25b8  Depth Perception \u2014 Monocular Cues (1 eye)\nLinear P erspective \u2014 parallel lines converge with distance\nRelative Size \u2014 smaller-looking object = farther\nInterposition (overlap) \u2014 blocking object = nearer\nTexture Gradient \u2014 texture denser/finer with distance\nAerial P erspective \u2014 distant objects hazier/bluer\nLight & Shadow \u2014 shading shows form/depth\n\u25b8  Depth Perception \u2014 Binocular Cues (2 eyes)\nRetinal Disparity \u2014 2 slightly different retinal images \u2192  basis of stereopsis\nConvergence \u2014 inward eye rotation angle signals nearness\n\u25b8  Perceptual Constancy\nWe perceive objects as stable despite retinal image constantly changing.\nType Example\nSize Constancy Person walking away still \"looks\" same height\nShape Constancy Door looks rectangular even when ajar (trapezoid image)\nColour Constancy Tomato looks red in warm/cool/daylight\nBrightness Constancy White paper looks white in sun & shade; coal looks black in both\n\n\u25b8  Perceptual Illusions\nIllusion = systematic misperception of a real stimulus (vs Hallucination = perception with\nNO stimulus at all).\nGeometrical \u2014 misjudged length/size/direction (e.g. M\u00fcller-Lyer, Ponzo)\nP hysiological \u2014 over-stimulation (e.g. afterimages)\nCognitive \u2014 unconscious inference/learned assumptions\nM \u00fcller-Lyer: arrowheads make equal lines look unequal (size-constancy misapplied).\nPonzo: converging lines make equal bars look unequal (linear-perspective misapplied).\nM oon Illusion: moon looks bigger near horizon due to extra terrain distance cues.\nAm es Room : distorted room + peephole \u2192  equal-height people look very different sizes.\nAutokinetic effect: a still light in total darkness appears to drift.\n\u25b8  Factors In\ufb02uencing Perception\nPersonal (Subjective)\nMotivation & needs\nPast experience/learning\nPerceptual set\nEmotion/mood\nCulture & upbringing\nInterest & values\nStimulus (Objective)\nIntensity & size\nContrast\nMovement\nRepetition\nNovelty & familiarity\nClarity\n Psychophysics\n\u25b8  What is Psychophysics?\nP sychophysics = quantitative study of relationship between physical stimuli (light, sound,\npressure) and the psychological sensations/perceptions they produce.\n\u270f  Perception = active, selective, constructive. Bottom-up + top-down work together; Gestaltorganizes; monocular+binocular give depth; constancies stabilize world; illusions expose themechanism.\nCh. 4\n\nStimulus (Physical) \u2192 Sensation (Psychological)\nFounded by Gustav Fechner (1860), Elemente der Psychophysik\nConsidered the first truly quantitative, experimental branch of psychology\nKey Q: \"How much physical change is needed before a person notices a change?\"\n\u25b8  Historical Roots (Timeline)\n1834\nErnst Weber\nstudies JND\n\u2192\n1860\nGustav Fechner\nFechner's Law\n\u2192 1950s\nSignal Detection Theory\n\u25b8  Absolute Threshold\nAbsolute Threshold = minimum stimulus intensity detected 50% of the time \u2014 not a fixed\non/off point (detection is probabilistic).\nSense Classic Example (Galanter, 1962)\nVision Candle flame seen from ~48 km on a clear dark night\nHearing Watch ticking from ~6 m in silence\nTaste 1 tsp sugar in ~7.5 litres of water\nSmell 1 drop perfume diffused in a 3-room apartment\nTouch Bee's wing falling 1 cm onto the cheek\n\u25b8  Difference Threshold (JND)\nJust N oticeable Difference (JN D) = smallest detectable difference between 2 stimuli, 50% of\nthe time.\n1 kg reference \u2192  need +~30g to feel heavier\n10 kg reference \u2192  need +~300g to feel heavier\nSam e 30g is easily felt on 1kg but im perceptible on 10kg \u2192  proportion matters, not\nabsolute amount!\n\n\u25b8  Weber's Law\nJND is a constant proportion of the original stimulus, not a fixed amount. Smaller k = greater\nsensitivity.\nSense Weber Fraction (k)\nVision (brightness) ~1/60 (most sensitive)\nWeight (heaviness) ~1/50\nHearing (loudness) ~1/10\nTaste (saltiness) ~1/5\nSmell (odour) ~1/4 (least sensitive)\n\u25b8  Fechner's Law\nBuilt on Weber's Law \u2014 integrates ratio rule across many JND steps\nSensation grows logarithmically \u2014 equal stimulus ratios (e.g. doubling) \u2192  equal\nsensation increments\n\u25b8  Signal Detection Theory (SDT)\nClassical theory assumes fixed cutoff; SDT says detection also depends on the observer's\ndecision criterion (motivation, expectation, cost of errors).\nSignal Present Signal Absent\nRespond \"Yes\" \u2705  Hit \u274c  False Alarm\nRespond \"No\" \u274c  Miss \u2705  Correct Rejection\n\u0394 I / I = k\n\u0394 I = JND (change needed) \u00a0|\u00a0 I = original intensity \u00a0|\u00a0 k = Weber fraction\n(constant)\nS = k log I\nS = sensation magnitude \u00a0|\u00a0 I = stimulus intensity \u00a0|\u00a0 k = sense-dependent\nconstant\n\nd \u2032  (d-prime) = sensitivity (signal vs noise) \u00a0|\u00a0 \u03b2  (beta) = response bias (tendency to say\n\"yes\")\n\u25b8  Classical Psychophysical Methods\nMethod How it works Trade-off\nMethod of Limits Stimuli presented in\nascending/descending steps till response\nchanges\nFast but prone to\nhabituation/expectation errors\nMethod of\nConstant Stimuli\nFixed set of stimuli, random order,\nrepeated\nMost accurate but time-consuming\nMethod of\nAdjustment\nParticipant adjusts stimulus until just\ndetectable\nQuick, intuitive but less precise\n\u25b8  Applications of Psychophysics\nClinical & Sensory Testing \u2014 audiometry, visual acuity, pain-threshold tests\nHuman Factors/Ergonomics \u2014 dashboard displays, alarms design\nConsumer/M arketing \u2014 smallest detectable change in price/packaging/taste (JND)\nBasic Sensory Research \u2014 mapping vision, hearing, taste, smell, touch\n\u270f  Fechner founded psychophysics (1860) on Weber's work. Absolute threshold = detect 50% oftime; JND = smallest detectable difference. Weber's Law (ratio) \u2192  Fechner's Law (log). SDT addsdecision bias (d \u2032 , \u03b2 ).\n\n\u26a1  Quick Revision Summary\nScope: Psychology = science of behaviour & mental processes \u2192  Theoretical\n(pure research) vs Applied (real-world problem-solving); 15+ branches from\nexperimental to community psychology.\nM ethods: Only Experimental gives cause-effect (IV \u2192 DV, random assignment).\nCorrelational = relationship, not causation. Case study = depth. Naturalistic obs. =\nreal-world truth. Survey = breadth. Longitudinal (same people, over time) vs\nCross-sectional (different ages, one time). Ethics: consent \u2192  withdrawal \u2192\ndebrief \u2192  confidentiality \u2192  protection.\nP erception: Sensation (data) \u2192 Perception (meaning). Bottom-up (Gibson,\ndata \u2192 whole) vs Top-down (Gregory, concept \u2192 check data). Gestalt laws:\nproximity, similarity, closure, continuity, figure-ground. Depth = monocular (1 eye:\nperspective, size, overlap, texture, aerial, shadow) + binocular (2 eyes: disparity,\nconvergence). Constancy = size/shape/colour/brightness stay stable. Illusion (real\nstimulus misread) \u2260 Hallucination (no stimulus).\nP sychophysics: Fechner (1860) founded it on Weber's JND work. Absolute threshold\n= detected 50% of time. JND = smallest detectable difference. \nWeber's Law (proportion).  Fechner's Law (log growth). SDT\n\u2192  d \u2032  (sensitivity) + \u03b2  (bias); 4 outcomes: Hit/Miss/False Alarm/Correct Rejection.\n3 methods: Limits, Constant Stimuli, Adjustment.\n\u2014  end of notes, all the best for exam s! \ud83c\udf40  \u2014\n\u0394 I/I = k\nS = k log I",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "Scope \u2022 Methods \u2022 Perception \u2022 Psychophysics \u2014 Exam Revision\n Scope of Psychology\n\u25b8  What is Psychology?\nP sychology = scientific study of behaviour & mental processes\nGoal \u2192  describe \u2192 explain \u2192 predict \u2192 influence how people think, feel, act\nNot just clinics/labs \u2014 applies to almost every field of human life\n\u25b8  Two Broad Divisions (Morgan & King)\n\ud83e\uddea  Theoretical (Pure)\nPsychology\nBuilds core knowledge through\nresearch\nUnderstanding behaviour for its own\nsake\ne.g. Experimental, Physiological,\nPersonality, Abnormal, Social,\nDevelopmental Psych.\n\ud83d\udee0  Applied Psychology\nPuts principles to work on real\nproblems\nServes people directly (clinics,\nschools, courts, workplace)\ne.g. Clinical, Counseling, Educational,\nIndustrial, Health, Forensic\n\ud83d\udcd8  Psychology Notes\nCh. 1",
+          "char_count": 769,
+          "sections": []
+        },
+        {
+          "page_number": 2,
+          "text": "\u25b8  Branches \u2014 Theoretical\nBranch Focus\nExperimental Lab study of learning, memory, perception, motivation\nPhysiological Brain, nervous system, hormones behind behaviour\nDevelopmental Growth & change across the whole lifespan\nSocial Thought/feeling/behaviour in presence of others\nPersonality Individual differences \u2014 traits, temperament\nAbnormal Types, symptoms, causes of psychopathology\n\u25b8  Branches \u2014 Applied\nBranch Focus\nClinical Assessment, diagnosis, treatment of disorders\nCounseling Everyday personal/educational/career concerns\nEducational Teaching, learning, classrooms\nIndustrial/Org. Employer-employee relations, selection, leadership\nHealth Psychological factors in illness & wellness\nEnvironmental Physical surroundings \u2192  behaviour/wellbeing\nForensic/Legal Law, criminal behaviour, justice system\nSports Mental/emotional factors in athletic performance\nMilitary Selection, training, morale of armed forces\nConsumer Buying behaviour, decision-making\nCommunity Wellbeing of communities/social systems\n Methods of Psychology\nHow psychologists actually study mind & behaviour \u2192  6 core methods:\n\u270f  Sum  up: Psychology's scope runs from the neuron to the classroom, clinic, courtroom &workplace \u2014 one of the most far-reaching behavioural sciences! (Morgan & King)\nCh. 2",
+          "char_count": 1278,
+          "sections": []
+        },
+        {
+          "page_number": 3,
+          "text": "Experimental \u2192 Correlational \u2192 Case Study \u2192 Naturalistic Obs. \u2192\nSurvey/Interview \u2192 Longitudinal/Cross-sectional\n\u25b8  \udbba\udc2e  Experimental Method\nManipulate Independent Variable (IV), keep rest constant, measure effect on Dependent\nVariable (DV). Random assignment \u2192  allows cause\u2013effect claims.\n+ Only method to prove causation; high control; replicable\n\u2013 Artificial (low real-world validity); ethical limits; reactivity (observer effect)\nClassic study: Milgram's Obedience (1963) \u2014 ~65% gave max 450V shock under authority\npressure.\n\u25b8  \udbba\udc2f  Correlational Method\nMeasures 2+ variables as they naturally occur; computes correlation coefficient r. Nothing\nmanipulated \u2192  correlation \u2260 causation.\n+ Studies variables that can't be manipulated; real-world data; predicts trends\n\u2013 Can't prove causation; third-variable problem; direction unclear\nClassic study: Doll & Hill \u2014 smoking & lung cancer link (1950s), found via correlation not\nexperiment.\n\u25b8  \udbba\udc30  Case Study Method\nIn-depth study of one person/group/event \u2014 interviews, records, observation.\n+ Rich detail; studies rare phenomena; generates hypotheses\n\u2013 Doesn't generalize; researcher bias; no cause-effect\nClassic study: Phineas Gage (1848) \u2014 rod through frontal lobe \u2192  personality change \u2192\nlinked brain regions to personality.\n\u25b8  \udbba\udc31  Naturalistic Observation\nWatch & record behaviour in its real/natural setting \u2014 no interference.\n+ High ecological validity; good for exploratory research",
+          "char_count": 1434,
+          "sections": []
+        },
+        {
+          "page_number": 4,
+          "text": "\u2013 No control over variables; observer presence may alter behaviour; no cause-effect\nClassic study: Jane Goodall's chimpanzees (Gombe, 1960s) \u2014 documented tool use, social\nbonds.\n\u25b8  \udbba\udc32  Survey & Interview Method\nSelf-reported data from a sample \u2192  generalize to a population.\n+ Large samples fast; inexpensive; good for attitudes/beliefs\n\u2013 Social desirability bias; depends on honest recall; low response rate skews sample\n\u25b8  \udbba\udc33  Longitudinal vs Cross-Sectional\nLongitudinal Cross-Sectional\nDesign Same participants, over years Different age groups, one time point\n+ Tracks real change, no cohort effect Fast, cheap, no attrition\n\u2013 Costly, slow, attrition Cohort effects mistaken for age effects\nClassic study: Harvard Study of Adult Dev. (1938\u2013present) \u2014 warm relationships predict\nhealth/happiness more than wealth. Also: Piaget's cognitive-dev theory (from observing his\nown children).\n\u25b8  Ethics in Research\nInformed Consent \u2192  Right to Withdraw \u2192  Debriefing \u2192  Confidentiality \u2192\nP rotection from Harm\nCautionary case: Stanford Prison Experiment (Zimbardo, 1971) \u2014 guards turned abusive,\nstudy stopped after 6 days \u2192  led to modern ethics boards.",
+          "char_count": 1147,
+          "sections": []
+        },
+        {
+          "page_number": 5,
+          "text": "\ud83d\udccb  Methods at a Glance\nMethod Key Strength Key Limitation\nExperimental Cause & effect Artificial, ethical limits\nCorrelational Studies unmanipulable vars No causation\nCase Study Rich detail, rare cases No generalization\nNaturalistic Obs. Genuine real-world behaviour No variable control\nSurvey/Interview Large, efficient samples Self-report bias\nLongitudinal/Cross-sec. Change over time / fast Costly-slow / cohort effects\n Perception in Psychology\n\u25b8  Sensation vs Perception\nSensation\nRaw detection of stimuli by sense organs\n(eyes, ears, skin) \u2192  sent to brain\nPerception\nBrain selects, organizes, interprets\nsensory data \u2192  meaningful experience\nKey qualities of perception: Selective \u00b7 Subjective \u00b7 Constructive \u00b7 M eaningful\n\u25b8  Process of Perception\nStimulus \u2192 Sense Organs \u2192 Neural Transmission \u2192\nBrain: Organization \u2192 Perceptual Experience\n\ud83d\udc41  Attention = gatekeeper \u2014 only some stimuli get full processing, rest filtered out.\n\u270f  Only experim ents give cause-and-effect. Best method depends on the question: depth (casestudy) vs breadth (survey) vs realism (naturalistic).\nCh. 3\n\"Sensation is data; Perception is meaning.\"",
+          "char_count": 1128,
+          "sections": []
+        },
+        {
+          "page_number": 6,
+          "text": "\u25b8  Attention \u2014 What Grabs It?\nStimulus (External) Factors\nIntensity & size\nContrast\nMovement\nNovelty & repetition\nPersonal (Internal) Factors\nMotivation & needs\nInterests & values\nPast experience\nExpectation (perceptual set)\n\u25b8  Bottom-Up vs Top-Down Processing\nBottom-Up Top-Down\nType Data-driven Concept-driven\nKey\nname\nJ. J. Gibson Richard Gregory\nIdea Small features \u2192  combined into\nwhole percept (part \u2192 whole)\nPrior knowledge/context \u2192  hypothesis \u2192\nchecked against data (whole guides part)\n\u25b8  Five Domains of Perception\n1. Perceptual Organization (Gestalt laws, figure-ground)\n2. Depth Perception (monocular + binocular cues)\n3. Perceptual Constancy (size, shape, colour, brightness)\n4. Perceptual Illusions (geometrical, physiological, cognitive)\n5. Influencing Factors (personal & stimulus)\n\u25b8  Gestalt Psychology\nFounders: Wertheimer, K\u00f6hler, Koffka \u2014 mind organizes bits into unified wholes (Gestalten).\n\"The whole is different from the sum of its\nparts.\"",
+          "char_count": 965,
+          "sections": []
+        },
+        {
+          "page_number": 7,
+          "text": "Law Meaning\nProximity Close elements seen as one group\nSimilarity Alike elements (colour/shape) grouped together\nClosure Mind fills gaps \u2192  sees complete shape\nContinuity Elements in a line/curve seen as continuing smoothly\nFigure-Ground Scene split into focused \"figure\" + background \"ground\"\nMnemonic: P-S-C-C-F \u2014 \"Please Sort Circles Carefully, Friend\"\n\u25b8  Depth Perception \u2014 Monocular Cues (1 eye)\nLinear P erspective \u2014 parallel lines converge with distance\nRelative Size \u2014 smaller-looking object = farther\nInterposition (overlap) \u2014 blocking object = nearer\nTexture Gradient \u2014 texture denser/finer with distance\nAerial P erspective \u2014 distant objects hazier/bluer\nLight & Shadow \u2014 shading shows form/depth\n\u25b8  Depth Perception \u2014 Binocular Cues (2 eyes)\nRetinal Disparity \u2014 2 slightly different retinal images \u2192  basis of stereopsis\nConvergence \u2014 inward eye rotation angle signals nearness\n\u25b8  Perceptual Constancy\nWe perceive objects as stable despite retinal image constantly changing.\nType Example\nSize Constancy Person walking away still \"looks\" same height\nShape Constancy Door looks rectangular even when ajar (trapezoid image)\nColour Constancy Tomato looks red in warm/cool/daylight\nBrightness Constancy White paper looks white in sun & shade; coal looks black in both",
+          "char_count": 1274,
+          "sections": []
+        },
+        {
+          "page_number": 8,
+          "text": "\u25b8  Perceptual Illusions\nIllusion = systematic misperception of a real stimulus (vs Hallucination = perception with\nNO stimulus at all).\nGeometrical \u2014 misjudged length/size/direction (e.g. M\u00fcller-Lyer, Ponzo)\nP hysiological \u2014 over-stimulation (e.g. afterimages)\nCognitive \u2014 unconscious inference/learned assumptions\nM \u00fcller-Lyer: arrowheads make equal lines look unequal (size-constancy misapplied).\nPonzo: converging lines make equal bars look unequal (linear-perspective misapplied).\nM oon Illusion: moon looks bigger near horizon due to extra terrain distance cues.\nAm es Room : distorted room + peephole \u2192  equal-height people look very different sizes.\nAutokinetic effect: a still light in total darkness appears to drift.\n\u25b8  Factors In\ufb02uencing Perception\nPersonal (Subjective)\nMotivation & needs\nPast experience/learning\nPerceptual set\nEmotion/mood\nCulture & upbringing\nInterest & values\nStimulus (Objective)\nIntensity & size\nContrast\nMovement\nRepetition\nNovelty & familiarity\nClarity\n Psychophysics\n\u25b8  What is Psychophysics?\nP sychophysics = quantitative study of relationship between physical stimuli (light, sound,\npressure) and the psychological sensations/perceptions they produce.\n\u270f  Perception = active, selective, constructive. Bottom-up + top-down work together; Gestaltorganizes; monocular+binocular give depth; constancies stabilize world; illusions expose themechanism.\nCh. 4",
+          "char_count": 1392,
+          "sections": []
+        },
+        {
+          "page_number": 9,
+          "text": "Stimulus (Physical) \u2192 Sensation (Psychological)\nFounded by Gustav Fechner (1860), Elemente der Psychophysik\nConsidered the first truly quantitative, experimental branch of psychology\nKey Q: \"How much physical change is needed before a person notices a change?\"\n\u25b8  Historical Roots (Timeline)\n1834\nErnst Weber\nstudies JND\n\u2192\n1860\nGustav Fechner\nFechner's Law\n\u2192 1950s\nSignal Detection Theory\n\u25b8  Absolute Threshold\nAbsolute Threshold = minimum stimulus intensity detected 50% of the time \u2014 not a fixed\non/off point (detection is probabilistic).\nSense Classic Example (Galanter, 1962)\nVision Candle flame seen from ~48 km on a clear dark night\nHearing Watch ticking from ~6 m in silence\nTaste 1 tsp sugar in ~7.5 litres of water\nSmell 1 drop perfume diffused in a 3-room apartment\nTouch Bee's wing falling 1 cm onto the cheek\n\u25b8  Difference Threshold (JND)\nJust N oticeable Difference (JN D) = smallest detectable difference between 2 stimuli, 50% of\nthe time.\n1 kg reference \u2192  need +~30g to feel heavier\n10 kg reference \u2192  need +~300g to feel heavier\nSam e 30g is easily felt on 1kg but im perceptible on 10kg \u2192  proportion matters, not\nabsolute amount!",
+          "char_count": 1149,
+          "sections": []
+        },
+        {
+          "page_number": 10,
+          "text": "\u25b8  Weber's Law\nJND is a constant proportion of the original stimulus, not a fixed amount. Smaller k = greater\nsensitivity.\nSense Weber Fraction (k)\nVision (brightness) ~1/60 (most sensitive)\nWeight (heaviness) ~1/50\nHearing (loudness) ~1/10\nTaste (saltiness) ~1/5\nSmell (odour) ~1/4 (least sensitive)\n\u25b8  Fechner's Law\nBuilt on Weber's Law \u2014 integrates ratio rule across many JND steps\nSensation grows logarithmically \u2014 equal stimulus ratios (e.g. doubling) \u2192  equal\nsensation increments\n\u25b8  Signal Detection Theory (SDT)\nClassical theory assumes fixed cutoff; SDT says detection also depends on the observer's\ndecision criterion (motivation, expectation, cost of errors).\nSignal Present Signal Absent\nRespond \"Yes\" \u2705  Hit \u274c  False Alarm\nRespond \"No\" \u274c  Miss \u2705  Correct Rejection\n\u0394 I / I = k\n\u0394 I = JND (change needed) \u00a0|\u00a0 I = original intensity \u00a0|\u00a0 k = Weber fraction\n(constant)\nS = k log I\nS = sensation magnitude \u00a0|\u00a0 I = stimulus intensity \u00a0|\u00a0 k = sense-dependent\nconstant",
+          "char_count": 972,
+          "sections": []
+        },
+        {
+          "page_number": 11,
+          "text": "d \u2032  (d-prime) = sensitivity (signal vs noise) \u00a0|\u00a0 \u03b2  (beta) = response bias (tendency to say\n\"yes\")\n\u25b8  Classical Psychophysical Methods\nMethod How it works Trade-off\nMethod of Limits Stimuli presented in\nascending/descending steps till response\nchanges\nFast but prone to\nhabituation/expectation errors\nMethod of\nConstant Stimuli\nFixed set of stimuli, random order,\nrepeated\nMost accurate but time-consuming\nMethod of\nAdjustment\nParticipant adjusts stimulus until just\ndetectable\nQuick, intuitive but less precise\n\u25b8  Applications of Psychophysics\nClinical & Sensory Testing \u2014 audiometry, visual acuity, pain-threshold tests\nHuman Factors/Ergonomics \u2014 dashboard displays, alarms design\nConsumer/M arketing \u2014 smallest detectable change in price/packaging/taste (JND)\nBasic Sensory Research \u2014 mapping vision, hearing, taste, smell, touch\n\u270f  Fechner founded psychophysics (1860) on Weber's work. Absolute threshold = detect 50% oftime; JND = smallest detectable difference. Weber's Law (ratio) \u2192  Fechner's Law (log). SDT addsdecision bias (d \u2032 , \u03b2 ).",
+          "char_count": 1047,
+          "sections": []
+        },
+        {
+          "page_number": 12,
+          "text": "\u26a1  Quick Revision Summary\nScope: Psychology = science of behaviour & mental processes \u2192  Theoretical\n(pure research) vs Applied (real-world problem-solving); 15+ branches from\nexperimental to community psychology.\nM ethods: Only Experimental gives cause-effect (IV \u2192 DV, random assignment).\nCorrelational = relationship, not causation. Case study = depth. Naturalistic obs. =\nreal-world truth. Survey = breadth. Longitudinal (same people, over time) vs\nCross-sectional (different ages, one time). Ethics: consent \u2192  withdrawal \u2192\ndebrief \u2192  confidentiality \u2192  protection.\nP erception: Sensation (data) \u2192 Perception (meaning). Bottom-up (Gibson,\ndata \u2192 whole) vs Top-down (Gregory, concept \u2192 check data). Gestalt laws:\nproximity, similarity, closure, continuity, figure-ground. Depth = monocular (1 eye:\nperspective, size, overlap, texture, aerial, shadow) + binocular (2 eyes: disparity,\nconvergence). Constancy = size/shape/colour/brightness stay stable. Illusion (real\nstimulus misread) \u2260 Hallucination (no stimulus).\nP sychophysics: Fechner (1860) founded it on Weber's JND work. Absolute threshold\n= detected 50% of time. JND = smallest detectable difference. \nWeber's Law (proportion).  Fechner's Law (log growth). SDT\n\u2192  d \u2032  (sensitivity) + \u03b2  (bias); 4 outcomes: Hit/Miss/False Alarm/Correct Rejection.\n3 methods: Limits, Constant Stimuli, Adjustment.\n\u2014  end of notes, all the best for exam s! \ud83c\udf40  \u2014\n\u0394 I/I = k\nS = k log I",
+          "char_count": 1427,
+          "sections": []
+        }
+      ],
+      "sections": [
+        {
+          "section_id": "sec_root",
+          "title": "General",
+          "level": 1,
+          "hierarchy_path": [
+            "General"
+          ],
+          "start_char": 0,
+          "end_char": 14004,
+          "page_number": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2582 @@
+[
+  {
+    "question_id": "q_dir_07",
+    "category": "direct",
+    "question": "What was Apex Financial Corp's total quarterly revenue in Q3 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7776896953582764
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.5383501052856445
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.5148799419403076
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_dir_08",
+    "category": "direct",
+    "question": "What was the total R&D investment for Apex Financial in Q3?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.5806020498275757
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.5805264115333557
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.4874265789985657
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_dir_09",
+    "category": "direct",
+    "question": "What is the legally binding emissions reduction target in the EU Climate Policy Framework 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2030 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2030 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.8475179076194763
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.7779290676116943
+      },
+      {
+        "chunk_id": "chk_struct_climat_000",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.6944981813430786
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_dir_10",
+    "category": "direct",
+    "question": "What is the mandated renewable energy share target by 2030 in the EU framework?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2030', '42.5%']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2030', '42.5%']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_002",
+        "chk_struct_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.7496328353881836
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.613439679145813
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.5998084545135498
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_par_03",
+    "category": "paraphrased",
+    "question": "What cryptographic standards safeguard stored files and prevent eavesdropping on wire transmissions?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Missing evidence in retrieved corpus. Missing key query terms: cryptographic, standards, safeguard, stored).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "missing_evidence",
+      "confidence_score": 0.0,
+      "rationale": "Missing evidence in retrieved corpus. Missing key query terms: cryptographic, standards, safeguard, stored",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.0
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.36443495750427246
+      },
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.3578687310218811
+      },
+      {
+        "chunk_id": "chk_struct_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.2690083980560303
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_par_05",
+    "category": "paraphrased",
+    "question": "How profitable was Apex Financial in the third quarter regarding bottom-line net earnings?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.6562619209289551
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.46836259961128235
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.43671685457229614
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_par_06",
+    "category": "paraphrased",
+    "question": "Where were the capital investments concentrated for international computing sites?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.5448532700538635
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.274108350276947
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.2115216702222824
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_par_07",
+    "category": "paraphrased",
+    "question": "By what year does European environmental regulation require total carbon neutrality?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2030 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2030 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.5506894588470459
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.5068138837814331
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.5020288825035095
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_mul_02",
+    "category": "multi_document",
+    "question": "Compare the capital expenditure budget of Apex Financial with the cloud platform's egress fees.",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.5357792973518372
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.45804932713508606
+      },
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.4480019807815552
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_mul_04",
+    "category": "multi_document",
+    "question": "How do Apex Financial's full-year revenue projections relate to the European Union's 2024 Just Transition Fund allocation?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']) and climate_policy_eu_2024.md (['3', '19.2 billion']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']) and climate_policy_eu_2024.md (['3', '19.2 billion']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.5702559947967529
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.542539119720459
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.49144119024276733
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_mul_07",
+    "category": "multi_document",
+    "question": "How does Apex Financial's R&D spend compare to its quarterly operating cash flow?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$3.4', '$1.1']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "dense",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$3.4', '$1.1']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.5146898031234741
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.4760519862174988
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.4461117684841156
+      }
+    ],
+    "configuration": "Dense-Only"
+  },
+  {
+    "question_id": "q_dir_01",
+    "category": "direct",
+    "question": "What is the guaranteed uptime availability in Cloud Architecture Specifications 2025?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_cloud__000",
+        "chk_struct_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 9.772475393520562
+      },
+      {
+        "chunk_id": "chk_struct_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 4.0150284173059045
+      },
+      {
+        "chunk_id": "chk_struct_climat_000",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 3.546837446639174
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_dir_07",
+    "category": "direct",
+    "question": "What was Apex Financial Corp's total quarterly revenue in Q3 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 16.10119671318095
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 8.568073713370108
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 7.666424221738982
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_dir_08",
+    "category": "direct",
+    "question": "What was the total R&D investment for Apex Financial in Q3?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 8.568073713370108
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 7.666976483729762
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 7.265660035211676
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_dir_09",
+    "category": "direct",
+    "question": "What is the legally binding emissions reduction target in the EU Climate Policy Framework 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2030 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2030 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 20.962925738296786
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 14.313991950079169
+      },
+      {
+        "chunk_id": "chk_struct_climat_000",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 11.119426139170935
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_dir_10",
+    "category": "direct",
+    "question": "What is the mandated renewable energy share target by 2030 in the EU framework?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2030', '42.5%']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2030', '42.5%']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_002",
+        "chk_struct_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 20.412991665856783
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 6.41929737942844
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 6.122462943664804
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_par_02",
+    "category": "paraphrased",
+    "question": "How far apart must server facilities be located to avoid localized catastrophic events?",
+    "failure_type": "RETRIEVAL_MISS",
+    "details": "RETRIEVAL_MISS: Ground-truth document/keywords not found in top-5 candidates.",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 5.172773795009511,
+      "rationale": "Sufficient evidence retrieved (confidence 5.173 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 5.172773795009511
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_medica_001",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 5.172773795009511
+      },
+      {
+        "chunk_id": "chk_struct_medica_000",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 2.28535514819126
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 1.7788062392588497
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_par_03",
+    "category": "paraphrased",
+    "question": "What cryptographic standards safeguard stored files and prevent eavesdropping on wire transmissions?",
+    "failure_type": "RETRIEVAL_MISS",
+    "details": "RETRIEVAL_MISS: Ground-truth document/keywords not found in top-5 candidates.",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 2.1303725819969923,
+      "rationale": "Sufficient evidence retrieved (confidence 2.130 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 2.1303725819969923
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_medica_000",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 2.1303725819969923
+      },
+      {
+        "chunk_id": "chk_struct_distri_000",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 2.0096543964863884
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_par_05",
+    "category": "paraphrased",
+    "question": "How profitable was Apex Financial in the third quarter regarding bottom-line net earnings?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 6.5559477378047415
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 5.943906895100181
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 4.6263573430669345
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_mul_02",
+    "category": "multi_document",
+    "question": "Compare the capital expenditure budget of Apex Financial with the cloud platform's egress fees.",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$820', '$950']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$820', '$950']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 6.753193876745952
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 6.5559477378047415
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 5.943906895100181
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_mul_04",
+    "category": "multi_document",
+    "question": "How do Apex Financial's full-year revenue projections relate to the European Union's 2024 Just Transition Fund allocation?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 11.037860914961556
+      },
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 10.942874696129461
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 10.24773903866049
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_mul_07",
+    "category": "multi_document",
+    "question": "How does Apex Financial's R&D spend compare to its quarterly operating cash flow?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$3.4', '$1.1']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$3.4', '$1.1']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 13.515618091914746
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 7.278546807836827
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 7.037873015683264
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_una_02",
+    "category": "unanswerable",
+    "question": "What was the retail release price of the Apple iPhone 16 Pro in Tokyo?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (missing_evidence).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 3.2019829379259743,
+      "rationale": "Sufficient evidence retrieved (confidence 3.202 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 3.2019829379259743
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 3.2019829379259743
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 3.121462731325822
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_una_09",
+    "category": "unanswerable",
+    "question": "What is the exact half-life of bismuth-209 under standard atmospheric conditions?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (missing_evidence).",
+    "pipeline_mode": "bm25",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 2.308675604315938,
+      "rationale": "Sufficient evidence retrieved (confidence 2.309 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 2.308675604315938
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 2.308675604315938
+      }
+    ],
+    "configuration": "BM25-Only"
+  },
+  {
+    "question_id": "q_dir_07",
+    "category": "direct",
+    "question": "What was Apex Financial Corp's total quarterly revenue in Q3 2024?",
+    "failure_type": "RETRIEVAL_MISS",
+    "details": "RETRIEVAL_MISS: Ground-truth document/keywords not found in top-5 candidates.",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.8498810013443472,
+      "rationale": "Sufficient evidence retrieved (confidence 0.850 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.8498810013443472
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.8498810013443472
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7851016645126494
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7739465839301155
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_dir_08",
+    "category": "direct",
+    "question": "What was the total R&D investment for Apex Financial in Q3?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.9251917858343086
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.8546434452129874
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7741895595963807
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_dir_09",
+    "category": "direct",
+    "question": "What is the legally binding emissions reduction target in the EU Climate Policy Framework 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.9318158726402386
+      },
+      {
+        "chunk_id": "chk_struct_climat_000",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.8355746587891786
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.8042253633123384
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_dir_10",
+    "category": "direct",
+    "question": "What is the mandated renewable energy share target by 2030 in the EU framework?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.8316684649953808
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.8270420658138498
+      },
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.7674291330608604
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_par_05",
+    "category": "paraphrased",
+    "question": "How profitable was Apex Financial in the third quarter regarding bottom-line net earnings?",
+    "failure_type": "RETRIEVAL_MISS",
+    "details": "RETRIEVAL_MISS: Ground-truth document/keywords not found in top-5 candidates.",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.9047902179285756,
+      "rationale": "Sufficient evidence retrieved (confidence 0.905 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.9047902179285756
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.9047902179285756
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7899800189183769
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7348444604239752
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_mul_07",
+    "category": "multi_document",
+    "question": "How does Apex Financial's R&D spend compare to its quarterly operating cash flow?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$17.1', '23%']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$17.1', '23%']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_002",
+        "chk_struct_financ_003"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.8496208766420345
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.805035544660176
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7417353527672577
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_cnf_02",
+    "category": "conflicting",
+    "question": "What is the total allocated budget for the EU Just Transition Mechanism?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (conflicting_evidence).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.9929595034383161,
+      "rationale": "Sufficient evidence retrieved (confidence 0.993 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.9929595034383161
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.9929595034383161
+      },
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.7449491280464243
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.7195508318794981
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_cnf_07",
+    "category": "conflicting",
+    "question": "What is the certified EBITDA margin for Apex Financial in the third quarter?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (conflicting_evidence).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.844976798593837,
+      "rationale": "Sufficient evidence retrieved (confidence 0.845 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.844976798593837
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.844976798593837
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.8159619042498396
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.7661336045546276
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_una_08",
+    "category": "unanswerable",
+    "question": "How many kilometers of railway lines were constructed in Brazil during 2023?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (missing_evidence).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.9044148984700331,
+      "rationale": "Sufficient evidence retrieved (confidence 0.904 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.9044148984700331
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.9044148984700331
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.7313846153846154
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.641816388313447
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_una_09",
+    "category": "unanswerable",
+    "question": "What is the exact half-life of bismuth-209 under standard atmospheric conditions?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (missing_evidence).",
+    "pipeline_mode": "hybrid",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.7327873712170054,
+      "rationale": "Sufficient evidence retrieved (confidence 0.733 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.7327873712170054
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.7327873712170054
+      },
+      {
+        "chunk_id": "chk_struct_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.6921189290928937
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.6714008396594466
+      }
+    ],
+    "configuration": "Calibrated Hybrid (C-RRF)"
+  },
+  {
+    "question_id": "q_dir_06",
+    "category": "direct",
+    "question": "What is the external data egress pricing for the first 50 terabytes?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_cloud__000",
+        "chk_struct_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.9994301597318455
+      },
+      {
+        "chunk_id": "chk_struct_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 1.1681377875104681e-05
+      },
+      {
+        "chunk_id": "chk_struct_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 1.0943736253626235e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_dir_07",
+    "category": "direct",
+    "question": "What was Apex Financial Corp's total quarterly revenue in Q3 2024?",
+    "failure_type": "RETRIEVAL_MISS",
+    "details": "RETRIEVAL_MISS: Ground-truth document/keywords not found in top-5 candidates.",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.8582191058071674,
+      "rationale": "Sufficient evidence retrieved (confidence 0.858 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.8582191058071674
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.8582191058071674
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.07643852945317496
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.04962706164941285
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_dir_08",
+    "category": "direct",
+    "question": "What was the total R&D investment for Apex Financial in Q3?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$820', '$950']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_000",
+        "chk_struct_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.9933084328197951
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.7846219010698935
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.07990609941011645
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_dir_09",
+    "category": "direct",
+    "question": "What is the legally binding emissions reduction target in the EU Climate Policy Framework 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.9991086355059238
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.31957584086954544
+      },
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.14737400682283824
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_dir_10",
+    "category": "direct",
+    "question": "What is the mandated renewable energy share target by 2030 in the EU framework?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.958235136997075
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.09458757760485131
+      },
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.0036530455199289846
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_01",
+    "category": "paraphrased",
+    "question": "How resilient is the cloud infrastructure against service interruptions and downtime?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.009) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.009295492932887547,
+      "rationale": "Weak evidence: Top candidate confidence (0.009) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.009295492932887547
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.009295492932887547
+      },
+      {
+        "chunk_id": "chk_struct_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.00010861130738976567
+      },
+      {
+        "chunk_id": "chk_struct_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 2.7475203566324462e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_02",
+    "category": "paraphrased",
+    "question": "How far apart must server facilities be located to avoid localized catastrophic events?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.001) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.0011897830500196794,
+      "rationale": "Weak evidence: Top candidate confidence (0.001) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.0011897830500196794
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0011897830500196794
+      },
+      {
+        "chunk_id": "chk_struct_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 1.4251227557035606e-05
+      },
+      {
+        "chunk_id": "chk_struct_medica_001",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 1.2855555998291662e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_03",
+    "category": "paraphrased",
+    "question": "What cryptographic standards safeguard stored files and prevent eavesdropping on wire transmissions?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Missing evidence in retrieved corpus. Missing key query terms: cryptographic, standards, safeguard, stored).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "missing_evidence",
+      "confidence_score": 0.0,
+      "rationale": "Missing evidence in retrieved corpus. Missing key query terms: cryptographic, standards, safeguard, stored",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.0
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0002687832717978878
+      },
+      {
+        "chunk_id": "chk_struct_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 5.498173620947315e-05
+      },
+      {
+        "chunk_id": "chk_struct_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 2.5672009335721755e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_05",
+    "category": "paraphrased",
+    "question": "How profitable was Apex Financial in the third quarter regarding bottom-line net earnings?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.005) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.004680431748625258,
+      "rationale": "Weak evidence: Top candidate confidence (0.005) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.004680431748625258
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.004680431748625258
+      },
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.00044324210681614463
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.00013667304625190804
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_06",
+    "category": "paraphrased",
+    "question": "Where were the capital investments concentrated for international computing sites?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.022) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.02241631668207536,
+      "rationale": "Weak evidence: Top candidate confidence (0.022) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.02241631668207536
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.02241631668207536
+      },
+      {
+        "chunk_id": "chk_struct_distri_000",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 1.2865416702278617e-05
+      },
+      {
+        "chunk_id": "chk_struct_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 1.1849273453664322e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_07",
+    "category": "paraphrased",
+    "question": "By what year does European environmental regulation require total carbon neutrality?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_2024.md (['3', '19.2 billion']) and climate_policy_eu_revision_2025.md (['28.5 billion', '2025 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_climat_003",
+        "chk_struct_climat_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.04904747533011896
+      },
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.002438085713775839
+      },
+      {
+        "chunk_id": "chk_struct_climat_000",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.00019405914953105817
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_08",
+    "category": "paraphrased",
+    "question": "When does a subordinate server decide to trigger a leadership vote in Raft?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.306) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.30551010269004086,
+      "rationale": "Weak evidence: Top candidate confidence (0.306) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.30551010269004086
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_distri_000",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 0.30551010269004086
+      },
+      {
+        "chunk_id": "chk_struct_distri_001",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 0.01272375041082632
+      },
+      {
+        "chunk_id": "chk_struct_cloud__002",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 1.790041373951082e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_par_09",
+    "category": "paraphrased",
+    "question": "What documentation must be assembled to verify medical product engineering controls?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.139) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.13898841734076678,
+      "rationale": "Weak evidence: Top candidate confidence (0.139) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.13898841734076678
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_medica_000",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.13898841734076678
+      },
+      {
+        "chunk_id": "chk_struct_medica_001",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.0037333214975546086
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 1.2106656674974877e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_mul_02",
+    "category": "multi_document",
+    "question": "Compare the capital expenditure budget of Apex Financial with the cloud platform's egress fees.",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.159) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.1589960329736548,
+      "rationale": "Weak evidence: Top candidate confidence (0.159) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.1589960329736548
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.1589960329736548
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.03386766504875108
+      },
+      {
+        "chunk_id": "chk_struct_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.01595796122691442
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_mul_04",
+    "category": "multi_document",
+    "question": "How do Apex Financial's full-year revenue projections relate to the European Union's 2024 Just Transition Fund allocation?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$17.1', '23%']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_alpha.pdf (['$17.1', '23%']) and financial_q3_report_beta_discrepancy.md (['$105', '$140 ']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_002",
+        "chk_struct_financ_003"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.4718887955924297
+      },
+      {
+        "chunk_id": "chk_struct_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.20504919631134363
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.002825448773555947
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_mul_05",
+    "category": "multi_document",
+    "question": "What is the network latency guarantee between cloud zones compared to Raft heartbeat frequencies?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.018) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.01800772454893915,
+      "rationale": "Weak evidence: Top candidate confidence (0.018) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.01800772454893915
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.01800772454893915
+      },
+      {
+        "chunk_id": "chk_struct_distri_000",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 0.017658949673467487
+      },
+      {
+        "chunk_id": "chk_struct_distri_001",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 0.007793051204694357
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_mul_06",
+    "category": "multi_document",
+    "question": "Compare the data retention timelines between cloud compliance archives and storage tiering policies.",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.329) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.32919134778754783,
+      "rationale": "Weak evidence: Top candidate confidence (0.329) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.32919134778754783
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.32919134778754783
+      },
+      {
+        "chunk_id": "chk_struct_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.1441044146431449
+      },
+      {
+        "chunk_id": "chk_struct_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0007082016131512896
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_mul_07",
+    "category": "multi_document",
+    "question": "How does Apex Financial's R&D spend compare to its quarterly operating cash flow?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_beta_discrepancy.md (['$105', '$140 ']) and financial_q3_report_alpha.pdf (['$17.1', '23%']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'revenue' between financial_q3_report_beta_discrepancy.md (['$105', '$140 ']) and financial_q3_report_alpha.pdf (['$17.1', '23%']).",
+      "conflicting_chunk_ids": [
+        "chk_struct_financ_002",
+        "chk_struct_financ_003"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_financ_001",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.05279822053565827
+      },
+      {
+        "chunk_id": "chk_struct_financ_002",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.004978720418935363
+      },
+      {
+        "chunk_id": "chk_struct_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.0014952273906217142
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_mul_09",
+    "category": "multi_document",
+    "question": "How do regulatory risk principles in ISO 14971 parallel data protection under SOC-2 and HIPAA?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.295) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.2953479732210031,
+      "rationale": "Weak evidence: Top candidate confidence (0.295) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.2953479732210031
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_medica_000",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.2953479732210031
+      },
+      {
+        "chunk_id": "chk_struct_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0063617166767716525
+      },
+      {
+        "chunk_id": "chk_struct_medica_001",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 4.8498210151649936e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_cnf_02",
+    "category": "conflicting",
+    "question": "What is the total allocated budget for the EU Just Transition Mechanism?",
+    "failure_type": "FAILED_TO_ABSTAIN",
+    "details": "FAILED_TO_ABSTAIN: System answered despite expected abstention (conflicting_evidence).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ANSWER",
+      "reason": "sufficient_evidence",
+      "confidence_score": 0.9999080862554371,
+      "rationale": "Sufficient evidence retrieved (confidence 1.000 >= threshold).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.9999080862554371
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_struct_climat_003",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.9999080862554371
+      },
+      {
+        "chunk_id": "chk_struct_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 2.8999413633691366e-05
+      },
+      {
+        "chunk_id": "chk_struct_climat_001",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 1.7763705794529638e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Structure-Aware)"
+  },
+  {
+    "question_id": "q_dir_01",
+    "category": "direct",
+    "question": "What is the guaranteed uptime availability in Cloud Architecture Specifications 2025?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_climat_000",
+        "chk_fix_cloud__000"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.9998744930168554
+      },
+      {
+        "chunk_id": "chk_fix_climat_000",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 7.063401562077135e-05
+      },
+      {
+        "chunk_id": "chk_fix_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 6.284663423724481e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_dir_07",
+    "category": "direct",
+    "question": "What was Apex Financial Corp's total quarterly revenue in Q3 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_financ_000",
+        "chk_fix_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.8826037219143322
+      },
+      {
+        "chunk_id": "chk_fix_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.4573608264090746
+      },
+      {
+        "chunk_id": "chk_fix_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.0403486513476505
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_dir_08",
+    "category": "direct",
+    "question": "What was the total R&D investment for Apex Financial in Q3?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$3.4', '$310']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_alpha.pdf (['$3.4', '$310']) and financial_q3_report_beta_discrepancy.md (['$950', '15.5%']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_financ_000",
+        "chk_fix_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.9950474222330111
+      },
+      {
+        "chunk_id": "chk_fix_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.962872199946348
+      },
+      {
+        "chunk_id": "chk_fix_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.012348144016985729
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_dir_09",
+    "category": "direct",
+    "question": "What is the legally binding emissions reduction target in the EU Climate Policy Framework 2024?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_revision_2025.md (['9', '2025']) and cloud_architecture_2025.pdf (['15ms', '4 ']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_revision_2025.md (['9', '2025']) and cloud_architecture_2025.pdf (['15ms', '4 ']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_climat_000",
+        "chk_fix_cloud__000"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_climat_000",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.9994629604202332
+      },
+      {
+        "chunk_id": "chk_fix_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.012733493766365287
+      },
+      {
+        "chunk_id": "chk_fix_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 5.325749890797327e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_dir_10",
+    "category": "direct",
+    "question": "What is the mandated renewable energy share target by 2030 in the EU framework?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2024\\n\\n']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2024\\n\\n']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_climat_000",
+        "chk_fix_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_climat_000",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.9691877832513773
+      },
+      {
+        "chunk_id": "chk_fix_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.01724948542758883
+      },
+      {
+        "chunk_id": "chk_fix_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.0044255135792003325
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_01",
+    "category": "paraphrased",
+    "question": "How resilient is the cloud infrastructure against service interruptions and downtime?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.020) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.01966724125425736,
+      "rationale": "Weak evidence: Top candidate confidence (0.020) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.01966724125425736
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.01966724125425736
+      },
+      {
+        "chunk_id": "chk_fix_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 3.0789834722005356e-05
+      },
+      {
+        "chunk_id": "chk_fix_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 1.277663733705677e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_02",
+    "category": "paraphrased",
+    "question": "How far apart must server facilities be located to avoid localized catastrophic events?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and climate_policy_eu_2024.md (['2030', '2050']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between cloud_architecture_2025.pdf (['15ms', '4 ']) and climate_policy_eu_2024.md (['2030', '2050']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_climat_001",
+        "chk_fix_cloud__000"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__001",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0019358994423471076
+      },
+      {
+        "chunk_id": "chk_fix_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 1.5562986563915327e-05
+      },
+      {
+        "chunk_id": "chk_fix_medica_002",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 1.4028278975985032e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_03",
+    "category": "paraphrased",
+    "question": "What cryptographic standards safeguard stored files and prevent eavesdropping on wire transmissions?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Missing evidence in retrieved corpus. Missing key query terms: cryptographic, standards, safeguard, stored).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "missing_evidence",
+      "confidence_score": 0.0,
+      "rationale": "Missing evidence in retrieved corpus. Missing key query terms: cryptographic, standards, safeguard, stored",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.0
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.009492220682244631
+      },
+      {
+        "chunk_id": "chk_fix_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 5.7780332792667636e-05
+      },
+      {
+        "chunk_id": "chk_fix_cloud__002",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 2.6545976094564768e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_04",
+    "category": "paraphrased",
+    "question": "What is the durability rating and encoding technique utilized for persistent file storage?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.244) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.24395574953090018,
+      "rationale": "Weak evidence: Top candidate confidence (0.244) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.24395574953090018
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.24395574953090018
+      },
+      {
+        "chunk_id": "chk_fix_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 9.619905429519345e-05
+      },
+      {
+        "chunk_id": "chk_fix_cloud__002",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 5.594539039923984e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_05",
+    "category": "paraphrased",
+    "question": "How profitable was Apex Financial in the third quarter regarding bottom-line net earnings?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_financ_000",
+        "chk_fix_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.22379092179763257
+      },
+      {
+        "chunk_id": "chk_fix_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.00025079002731397533
+      },
+      {
+        "chunk_id": "chk_fix_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.00013128405408150594
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_06",
+    "category": "paraphrased",
+    "question": "Where were the capital investments concentrated for international computing sites?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.005) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.0050611819663472155,
+      "rationale": "Weak evidence: Top candidate confidence (0.005) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.0050611819663472155
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.0050611819663472155
+      },
+      {
+        "chunk_id": "chk_fix_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 2.6513819530408497e-05
+      },
+      {
+        "chunk_id": "chk_fix_distri_000",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 1.2174132163215754e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_07",
+    "category": "paraphrased",
+    "question": "By what year does European environmental regulation require total carbon neutrality?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2024\\n\\n']) and climate_policy_eu_revision_2025.md (['9', '2025']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'target' between climate_policy_eu_2024.md (['2050', '2024\\n\\n']) and climate_policy_eu_revision_2025.md (['9', '2025']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_climat_000",
+        "chk_fix_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_climat_000",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.19239426183955385
+      },
+      {
+        "chunk_id": "chk_fix_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 3.359752901081838e-05
+      },
+      {
+        "chunk_id": "chk_fix_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 1.5814834418544556e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_par_09",
+    "category": "paraphrased",
+    "question": "What documentation must be assembled to verify medical product engineering controls?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.117) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.11694382382365853,
+      "rationale": "Weak evidence: Top candidate confidence (0.117) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.11694382382365853
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_medica_001",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.11694382382365853
+      },
+      {
+        "chunk_id": "chk_fix_medica_002",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.0014469505294320074
+      },
+      {
+        "chunk_id": "chk_fix_medica_000",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.00013737454843750348
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_mul_02",
+    "category": "multi_document",
+    "question": "Compare the capital expenditure budget of Apex Financial with the cloud platform's egress fees.",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_financ_000",
+        "chk_fix_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.3946625587319784
+      },
+      {
+        "chunk_id": "chk_fix_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.013845452210766895
+      },
+      {
+        "chunk_id": "chk_fix_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0011618486519760333
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_mul_03",
+    "category": "multi_document",
+    "question": "What compliance certifications are cited across cloud storage audit trails and healthcare device engineering?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.009) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.008751433838794832,
+      "rationale": "Weak evidence: Top candidate confidence (0.009) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.008751433838794832
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.008751433838794832
+      },
+      {
+        "chunk_id": "chk_fix_medica_000",
+        "doc": "medical_device_iso_compliance.txt",
+        "score": 0.00049121310196623
+      },
+      {
+        "chunk_id": "chk_fix_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 7.942783325388105e-05
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_mul_04",
+    "category": "multi_document",
+    "question": "How do Apex Financial's full-year revenue projections relate to the European Union's 2024 Just Transition Fund allocation?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_revision_2025.md (['9', '2025']) and climate_policy_eu_2024.md (['3', '19.2 billion']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'budget' between climate_policy_eu_revision_2025.md (['9', '2025']) and climate_policy_eu_2024.md (['3', '19.2 billion']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_climat_002",
+        "chk_fix_climat_001"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_climat_001",
+        "doc": "climate_policy_eu_revision_2025.md",
+        "score": 0.7241821070654384
+      },
+      {
+        "chunk_id": "chk_fix_climat_002",
+        "doc": "climate_policy_eu_2024.md",
+        "score": 0.1741288126366041
+      },
+      {
+        "chunk_id": "chk_fix_financ_003",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.09458923150416342
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_mul_05",
+    "category": "multi_document",
+    "question": "What is the network latency guarantee between cloud zones compared to Raft heartbeat frequencies?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.025) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.02504834020119352,
+      "rationale": "Weak evidence: Top candidate confidence (0.025) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.02504834020119352
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__000",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.02504834020119352
+      },
+      {
+        "chunk_id": "chk_fix_distri_000",
+        "doc": "distributed_systems_consensus.txt",
+        "score": 0.006092380053738972
+      },
+      {
+        "chunk_id": "chk_fix_cloud__002",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.005074403014262076
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_mul_06",
+    "category": "multi_document",
+    "question": "Compare the data retention timelines between cloud compliance archives and storage tiering policies.",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Weak evidence: Top candidate confidence (0.090) is below threshold (0.35).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "weak_evidence",
+      "confidence_score": 0.08969032720087697,
+      "rationale": "Weak evidence: Top candidate confidence (0.090) is below threshold (0.35).",
+      "conflicting_chunk_ids": [],
+      "evidence_score": 0.08969032720087697
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_cloud__004",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.08969032720087697
+      },
+      {
+        "chunk_id": "chk_fix_cloud__003",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.029589113973427072
+      },
+      {
+        "chunk_id": "chk_fix_cloud__005",
+        "doc": "cloud_architecture_2025.pdf",
+        "score": 0.0016285194055435054
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  },
+  {
+    "question_id": "q_mul_07",
+    "category": "multi_document",
+    "question": "How does Apex Financial's R&D spend compare to its quarterly operating cash flow?",
+    "failure_type": "FALSE_ABSTAIN",
+    "details": "FALSE_ABSTAIN: System refused to answer an answerable question (Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).).",
+    "pipeline_mode": "hybrid_rerank",
+    "abstention_decision": {
+      "decision": "ABSTAIN",
+      "reason": "conflicting_evidence",
+      "confidence_score": 0.45,
+      "rationale": "Refusing to answer due to contradictory sources: Conflicting metric numbers reported for 'ebitda' between financial_q3_report_beta_discrepancy.md (['$950', '15.5%']) and financial_q3_report_alpha.pdf (['$3.4', '$310']).",
+      "conflicting_chunk_ids": [
+        "chk_fix_financ_000",
+        "chk_fix_financ_002"
+      ],
+      "evidence_score": 0.45
+    },
+    "top_retrieved": [
+      {
+        "chunk_id": "chk_fix_financ_000",
+        "doc": "financial_q3_report_beta_discrepancy.md",
+        "score": 0.10727071302738607
+      },
+      {
+        "chunk_id": "chk_fix_financ_002",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.05524834694410913
+      },
+      {
+        "chunk_id": "chk_fix_financ_001",
+        "doc": "financial_q3_report_alpha.pdf",
+        "score": 0.04642483542340493
+      }
+    ],
+    "configuration": "Hybrid + Reranker (Fixed-Recursive)"
+  }
+]

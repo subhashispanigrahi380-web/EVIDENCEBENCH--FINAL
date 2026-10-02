@@ -1,0 +1,10 @@
+=== Consensus Mechanisms in Distributed Computing ===
+
+Raft is a consensus algorithm designed for understandability and operational safety. A Raft cluster consists of a leader, followers, and candidates. The leader maintains heartbeat intervals of 150ms to prevent follower election timeouts.
+
+When a follower does not receive a heartbeat within the election timeout (randomized between 150ms and 300ms), it transitions to candidate state, increments its term counter, and requests votes from peers.
+
+Log entries are committed only when safely replicated across a majority quorum. Raft guarantees the Leader Completeness Property: if a log entry is committed in a given term, that entry will be present in the logs of the leaders for all higher-numbered terms.
+
+=== Paxos Comparison ===
+Multi-Paxos provides equivalent consensus guarantees but merges phase 1 rounds during steady-state leader operation. However, implementation complexity is significantly higher than Raft, particularly regarding log hole filling and membership reconfiguration.
