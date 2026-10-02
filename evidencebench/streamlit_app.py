@@ -115,8 +115,10 @@ def load_pipeline():
     pipeline = EvidenceBenchPipeline()
     corpus = Path(config.corpus_dir)
     corpus.mkdir(parents=True, exist_ok=True)
-    # Index any existing documents
+    # Ingest corpus directory if needed and ensure index is built
     if corpus.exists() and any(corpus.iterdir()):
+        pipeline.doc_store.ingest_directory(config.corpus_dir)
+    if not pipeline.indexed_chunks:
         pipeline.reindex()
     return pipeline
 
@@ -199,29 +201,7 @@ with st.sidebar:
     st.markdown("**RAG Research Workspace**")
     st.markdown("---")
 
-    # Previous Conversations in sidebar
-    st.markdown("### 💬 Recent Queries")
-    if st.session_state.chat_history:
-        for idx, chat_item in enumerate(reversed(st.session_state.chat_history[-8:])):
-            q_preview = chat_item['query']
-            if len(q_preview) > 35:
-                q_preview = q_preview[:32] + "…"
-            status_dot = "🟢" if chat_item['decision'] == "ANSWER" else "🔴"
-            with st.expander(f"{status_dot} {q_preview}"):
-                st.caption(f"Target: `{chat_item.get('target', 'All')}`")
-                st.markdown(f"**Q:** {chat_item['query']}")
-                st.markdown(f"**Decision:** `{chat_item['decision']}`")
-                st.markdown(f"<small>{chat_item['answer'][:180]}…</small>", unsafe_allow_html=True)
-        if st.button("🗑️ Clear History", use_container_width=True):
-            st.session_state.chat_history = []
-            save_persistent_history([])
-            st.rerun()
-    else:
-        st.caption("No previous queries yet.")
-
-    st.markdown("---")
-
-    # File uploader
+    # ── Document Upload (first, at the top) ────────────────────────────────────
     st.markdown("### 📂 Upload Documents")
     st.markdown("Drag and drop your files below:")
 
@@ -253,6 +233,28 @@ with st.sidebar:
             st.success(msg)
             if new_count:
                 st.balloons()
+
+    st.markdown("---")
+
+    # ── Previous Conversations (below upload) ──────────────────────────────────
+    st.markdown("### 💬 Recent Queries")
+    if st.session_state.chat_history:
+        for idx, chat_item in enumerate(reversed(st.session_state.chat_history[-8:])):
+            q_preview = chat_item['query']
+            if len(q_preview) > 35:
+                q_preview = q_preview[:32] + "…"
+            status_dot = "🟢" if chat_item['decision'] == "ANSWER" else "🔴"
+            with st.expander(f"{status_dot} {q_preview}"):
+                st.caption(f"Target: `{chat_item.get('target', 'All')}`")
+                st.markdown(f"**Q:** {chat_item['query']}")
+                st.markdown(f"**Decision:** `{chat_item['decision']}`")
+                st.markdown(f"<small>{chat_item['answer'][:180]}…</small>", unsafe_allow_html=True)
+        if st.button("🗑️ Clear History", use_container_width=True):
+            st.session_state.chat_history = []
+            save_persistent_history([])
+            st.rerun()
+    else:
+        st.caption("No previous queries yet.")
 
     st.markdown("---")
 
@@ -378,6 +380,9 @@ with tab_qa:
         try:
             pipeline = load_pipeline()
 
+            if not pipeline.indexed_chunks:
+                with st.spinner("Building index over documents..."):
+                    pipeline.reindex()
             if not pipeline.indexed_chunks:
                 st.warning("⚠️ No documents indexed yet. Please upload files in the sidebar first.")
                 st.stop()
